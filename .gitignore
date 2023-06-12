@@ -1,0 +1,7 @@
+/.vscode
+/edt-api/.metadata
+/edt-api/edt-api
+/edt-api/Servers
+/edt-parser/target
+/edt-parser/src/main/java/com/leria/parser/Data
+/edt-parser/src/main/java/com/leria/parser/Api/UAKey.java
