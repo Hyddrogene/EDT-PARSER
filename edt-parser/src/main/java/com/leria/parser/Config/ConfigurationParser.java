@@ -22,8 +22,6 @@ public class ConfigurationParser {
       String name = nameNode.getTextContent();
       Node yearNode = root.getElementsByTagName("year").item(0);
       String year = yearNode.getTextContent();
-      Node facultyNode = root.getElementsByTagName("faculty").item(0);
-      String faculty = facultyNode.getTextContent();
       Node nrDaysPerWeekNode = root.getElementsByTagName("nrDaysPerWeek").item(0);
       int nrDaysPerWeek = Integer.parseInt(nrDaysPerWeekNode.getTextContent());
       Node nrSlotsPerDayNode = root.getElementsByTagName("nrSlotsPerDay").item(0);
@@ -45,7 +43,7 @@ public class ConfigurationParser {
         }
       }
 
-      return new ConfigurationFile(name, year, faculty, nrDaysPerWeek, neSlotsPerDay, selectEtapes);
+      return new ConfigurationFile(name, year, nrDaysPerWeek, neSlotsPerDay, selectEtapes);
     } catch (Exception e) {
       System.out.println("Error while parsing configuration file");
       e.printStackTrace();

@@ -2,7 +2,6 @@
 <config>
   <name>Timetable</name>
   <year>2022</year>
-  <faculty>Sciences</faculty>
   <nrDaysPerWeek>5</nrDaysPerWeek>
   <nrSlotsPerDay>1440</nrSlotsPerDay>
   <etapes>

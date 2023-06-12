@@ -15,36 +15,32 @@ public class API {
   }
 
   public static HttpResponse<String> requestMaquette(String codeEtape, String year) {
-    return sendRequestUA(DataType.MAQUETTE, year + "/" + codeEtape);
+    return sendRequestUA("maquette", year + "/" + codeEtape);
   }
 
   public static HttpResponse<String> requestEtapes(String year) {
-    return sendRequestUA(DataType.ETAPES, year);
+    return sendRequestUA("etape", year);
   }
 
   public static HttpResponse<String> requestSalles(String year) {
-    return sendRequestUA(DataType.SALLES, year);
+    return sendRequestUA("salle", year);
   }
 
   public static HttpResponse<String> requestEnseignants(String year) {
-    return sendRequestUA(DataType.ENSEIGNANTS, year);
+    return sendRequestUA("enseignant", year);
   }
 
   public static HttpResponse<String> requestEtapeCalendars(String year) {
-    return sendRequestAPI(DataType.ETAPE_CALENDAR, "");
+    return sendRequestAPI("etape_calendars", "");
   }
 
   public static HttpResponse<String> requestServiceEnseignant(String year, String courseId, String type) {
-    return sendRequestAPI(DataType.SERVICE_ENSEIGNANT, courseId + "/" + type);
+    return sendRequestAPI("teacher_service_sheet", courseId + "/" + type);
   }
 
-  public static HttpResponse<String> requestStudentCount(String year, String codeEtape) {
-    return sendRequestAPI(DataType.STUDENT_COUNT, codeEtape);
-  }
-
-  private static HttpResponse<String> sendRequestUA(DataType type, String args) {
+  private static HttpResponse<String> sendRequestUA(String api, String args) {
     HttpClient client = HttpClient.newHttpClient();
-    HttpRequest request = HttpRequest.newBuilder(URI.create(urlUA + type.toString() + "/" + args))
+    HttpRequest request = HttpRequest.newBuilder(URI.create(urlUA + api + "/" + args))
         .header("X-Token", generateTokenAPIUA(UAKey.getApiUAKey()))
         .build();
     try {
@@ -56,9 +52,9 @@ public class API {
     }
   }
 
-  private static HttpResponse<String> sendRequestAPI(DataType type, String args) {
+  private static HttpResponse<String> sendRequestAPI(String api, String args) {
     HttpClient client = HttpClient.newHttpClient();
-    HttpRequest request = HttpRequest.newBuilder(URI.create(urlAPI + type.toString() + "/" + args))
+    HttpRequest request = HttpRequest.newBuilder(URI.create(urlAPI + api + "/" + args))
         .build();
     try {
       return client.send(request, HttpResponse.BodyHandlers.ofString());

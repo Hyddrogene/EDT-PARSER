@@ -4,7 +4,6 @@
       <xs:sequence>
         <xs:element ref="name" minOccurs="1" maxOccurs="1" />
         <xs:element ref="year" minOccurs="1" maxOccurs="1" />
-        <xs:element ref="faculty" minOccurs="0" maxOccurs="1" />
         <xs:element ref="nrDaysPerWeek" minOccurs="1" maxOccurs="1" />
         <xs:element ref="nrSlotsPerDay" minOccurs="1" maxOccurs="1" />
         <xs:element ref="etapes" minOccurs="1" maxOccurs="1" />

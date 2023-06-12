@@ -5,17 +5,15 @@ import java.util.List;
 public class ConfigurationFile {
   private String name;
   private String year;
-  private String faculty;
   private int nrDaysPerWeek;
   private int nrSlotsPerDay;
 
   private List<SelectEtape> selectEtapes;
 
-  public ConfigurationFile(String name, String year, String faculty, int nrDaysPerWeek,
+  public ConfigurationFile(String name, String year, int nrDaysPerWeek,
       int nrSlotsPerDay, List<SelectEtape> selectEtapes) {
     this.name = name;
     this.year = year;
-    this.faculty = faculty;
     this.nrDaysPerWeek = nrDaysPerWeek;
     this.nrSlotsPerDay = nrSlotsPerDay;
     this.selectEtapes = selectEtapes;
@@ -27,10 +25,6 @@ public class ConfigurationFile {
 
   public String getYear() {
     return year;
-  }
-
-  public String getFaculty() {
-    return faculty;
   }
 
   public int getNrDaysPerWeek() {
@@ -59,8 +53,8 @@ public class ConfigurationFile {
   }
 
   public String toString() {
-    return "ConfigurationFile{" + "name='" + name + '\'' + ", year='" + year + '\'' + ", faculty='"
-        + faculty + '\'' + ", nrDaysPerWeek=" + nrDaysPerWeek + ", nrSlotsPerDay=" + nrSlotsPerDay
+    return "ConfigurationFile{" + "name='" + name + '\'' + ", year='" + year + '\'' + ", nrDaysPerWeek=" + nrDaysPerWeek
+        + ", nrSlotsPerDay=" + nrSlotsPerDay
         + ", selectEtapes=" + selectEtapes + '}';
   }
 }

@@ -15,7 +15,7 @@ import com.leria.parser.Models.UA.BaseEtape;
 public class ExportMaquette {
   public static void main(String[] args) {
     try (FileWriter writer = new FileWriter("instances.json")) {
-      writeMaquette(writer, "2021");
+      writeMaquette(writer, "2022");
     } catch (Exception e) {
       System.out.println(e);
     }
