@@ -12,7 +12,7 @@ public enum DataType {
       case SALLES:
         return "salle";
       case ENSEIGNANTS:
-        return "teachers";
+        return "enseignant";
       case ETAPE_CALENDAR:
         return "etape_calendars";
       case SERVICE_ENSEIGNANT:

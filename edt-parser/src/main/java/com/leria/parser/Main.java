@@ -12,7 +12,7 @@ public class Main {
     if (args.length != 1) {
       System.out.println("Usage: java -jar edt-parser-1.0.jar <config_file>");
       System.out.println("Using default config file: edt-parser\\config.xml");
-      filename = "C:\\Users\\Adrie\\Documents\\Dev\\edt\\edt-parser\\config.xml";
+      filename = "edt-parser\\config.xml";
     } else {
       filename = args[0];
     }

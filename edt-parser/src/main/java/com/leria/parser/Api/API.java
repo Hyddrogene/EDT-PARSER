@@ -27,7 +27,7 @@ public class API {
   }
 
   public static HttpResponse<String> requestEnseignants(String year) {
-    return sendRequestUA(DataType.ENSEIGNANTS, "");
+    return sendRequestUA(DataType.ENSEIGNANTS, year);
   }
 
   public static HttpResponse<String> requestEtapeCalendars(String year) {

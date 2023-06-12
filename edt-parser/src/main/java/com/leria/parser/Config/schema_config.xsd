@@ -1,0 +1,40 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="config">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="year" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="faculty" minOccurs="0" maxOccurs="1" />
+        <xs:element ref="nrDaysPerWeek" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="nrSlotsPerDay" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="etapes" minOccurs="1" maxOccurs="1" />
+      </xs:sequence>
+    </xs:complexType>
+
+  </xs:element>
+  <xs:simpleType name="periodesType">
+    <xs:restriction base="xs:string">
+      <!--  TODO: find a regex to accept empty string or a list of period separated by ","  -->
+      <xs:pattern value=".*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="name" type="xs:string" />
+  <xs:element name="year" type="xs:string" />
+  <xs:element name="faculty" type="xs:string" />
+  <xs:element name="nrDaysPerWeek" type="xs:integer" />
+  <xs:element name="nrSlotsPerDay" type="xs:integer" />
+  <xs:element name="etapes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="etape" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="label" type="xs:string" use="required" />
+            <xs:attribute name="periodes" type="periodesType" use="required" />
+            <xs:attribute name="effectif" type="xs:integer" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

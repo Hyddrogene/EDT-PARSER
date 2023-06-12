@@ -1,25 +1,26 @@
 package com.leria.parser.Models.UA;
 
 public class Enseignant {
-  private String teacher_uuid;
-  private String nom;
-  private String prenom;
-  private String affectation;
+  private String uuidEnseignant;
+  private String nomEnseignant;
+  private String prenomEnseignant;
+  private String affecationEnseignant;
+  private String codeServiceAffectation;
   private String libelleServiceAffectation;
   private TypeEnseignant typeEnseignant;
   private float volumeHoraire;
   private String volumeHoraireAnnee;
 
-  public Enseignant(String teacher_uuid, String nom, String prenom, String affectation,
+  public Enseignant(String uuidEnseignant, String nomEnseignant, String prenomEnseignant, String affecationEnseignant,
       String libelleServiceAffectation,
       TypeEnseignant typeEnseignant,
       float volumeHoraire,
       String volumeHoraireAnnee) {
     super();
-    this.teacher_uuid = teacher_uuid;
-    this.nom = nom;
-    this.prenom = prenom;
-    this.affectation = affectation;
+    this.uuidEnseignant = uuidEnseignant;
+    this.nomEnseignant = nomEnseignant;
+    this.prenomEnseignant = prenomEnseignant;
+    this.affecationEnseignant = affecationEnseignant;
     this.libelleServiceAffectation = libelleServiceAffectation;
     this.typeEnseignant = typeEnseignant;
     this.volumeHoraire = volumeHoraire;
@@ -27,39 +28,47 @@ public class Enseignant {
   }
 
   public String getId() {
-    return "T" + teacher_uuid;
+    return "T" + uuidEnseignant;
   }
 
-  public String getTeacher_uuid() {
-    return teacher_uuid;
+  public String getuuidEnseignant() {
+    return uuidEnseignant;
   }
 
-  public void setTeacher_uuid(String teacher_uuid) {
-    this.teacher_uuid = teacher_uuid;
+  public void setuuidEnseignant(String uuidEnseignant) {
+    this.uuidEnseignant = uuidEnseignant;
   }
 
-  public String getNom() {
-    return nom;
+  public String getnomEnseignant() {
+    return nomEnseignant;
   }
 
-  public void setNom(String nom) {
-    this.nom = nom;
+  public void setnomEnseignant(String nomEnseignant) {
+    this.nomEnseignant = nomEnseignant;
   }
 
-  public String getPrenom() {
-    return prenom;
+  public String getPrenomEnseignant() {
+    return prenomEnseignant;
   }
 
-  public void setPrenom(String prenom) {
-    this.prenom = prenom;
+  public void setPrenomEnseignant(String prenomEnseignant) {
+    this.prenomEnseignant = prenomEnseignant;
   }
 
   public String getAffectation() {
-    return affectation;
+    return affecationEnseignant;
   }
 
-  public void setAffectation(String affectation) {
-    this.affectation = affectation;
+  public void setAffectation(String affecationEnseignant) {
+    this.affecationEnseignant = affecationEnseignant;
+  }
+
+  public String getCodeServiceAffectation() {
+    return codeServiceAffectation;
+  }
+
+  public void setCodeServiceAffectation(String codeServiceAffectation) {
+    this.codeServiceAffectation = codeServiceAffectation;
   }
 
   public String getLibelleServiceAffectation() {
