@@ -18,6 +18,10 @@ public class ServiceSheetParser {
     try {
       HttpResponse<String> response = API.requestServiceEnseignant(year, courseId, typeCourse);
       Gson gson = new Gson();
+      if (response.statusCode() != 200) {
+        throw new Exception("The ServiceSheet API returned a status code : " + response.statusCode()
+            + ", check that the server is up and running");
+      }
       ServiceSheet[] serviceSheetArray = gson.fromJson(response.body(), ServiceSheet[].class);
       List<ServiceSheet> serviceSheets = new ArrayList<>();
       for (ServiceSheet serviceSheet : serviceSheetArray) {
@@ -25,7 +29,7 @@ public class ServiceSheetParser {
       }
       return serviceSheets;
     } catch (Exception e) {
-      System.out.println("Error while parsing service sheet");
+      System.out.println(e.getMessage());
       return Collections.emptyList();
     }
 

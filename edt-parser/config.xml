@@ -5,113 +5,113 @@
   <nrDaysPerWeek>5</nrDaysPerWeek>
   <nrSlotsPerDay>1440</nrSlotsPerDay>
   <etapes>
-    <etape id="TL1MP13" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="0" />
-    <etape id="TL1MP12" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="0" />
-    <etape id="TM1PSI4" label="M1 Photonique signal imagerie (PSI)" periodes="" effectif="0" />
-    <etape id="TM1BV4" label="M1 Biologie Végétale" periodes="" effectif="0" />
-    <etape id="TM2PSI4" label="M2 Photonique signal imagerie (PSI)" periodes="" effectif="0" />
-    <etape id="TM1CE3" label="M1 Chimie / Chimie-environnement" periodes="" effectif="0" />
-    <etape id="TM2CE3" label="M2 Chimie / Chimie-environnement" periodes="" effectif="0" />
-    <etape id="TM2GBI1" label="M2 BEE / Gestion de la biodiversité dans socio-écosystèmes" periodes="" effectif="0" />
-    <etape id="TM2MAD1" label="M1 BEE / Mer, anthropisation, diagnostic" periodes="" effectif="0" />
-    <etape id="TM1GBI1" label="M1 BEE / Gestion de la biodiversité dans socio-écosystèmes" periodes="" effectif="0" />
-    <etape id="TM1MAD1" label="M1 BEE / Mer, anthropisation, diagnostic" periodes="" effectif="0" />
-    <etape id="TL2SV12" label="Licence 2 Sciences de la vie et de la terre" periodes="" effectif="0" />
-    <etape id="TL2PC11" label="Licence 2 Physique-Chimie" periodes="" effectif="0" />
-    <etape id="TL2IN11" label="Licence 2 Informatique" periodes="" effectif="0" />
-    <etape id="TL2BI11" label="Licence 2 Biologies et Chimie" periodes="" effectif="0" />
-    <etape id="TL2BIS11" label="Licence 2 Biologies et Chimie - parcours santé" periodes="" effectif="0" />
-    <etape id="TL2PCS11" label="Licence 2 Physique-Chimie - parcours santé" periodes="" effectif="0" />
-    <etape id="TL2ME11" label="Licence 2 Double Licence Mathématiques / Math-Économie" periodes="" effectif="0" />
-    <etape id="TL2INS11" label="Licence 2 Informatique - parcours santé" periodes="" effectif="0" />
-    <etape id="TL2MP13" label="Licence 2 Sciences, technologies, santé / Portail MPCIE" periodes="" effectif="0" />
-    <etape id="TL2MA13" label="Licence 2 Mathématiques" periodes="" effectif="0" />
-    <etape id="TL2GES11" label="Licence 2 Géosciences - parcours santé" periodes="" effectif="0" />
-    <etape id="TL2MP12" label="Licence 2 Sciences, technologies, santé / Portail MPCIE" periodes="" effectif="0" />
-    <etape id="TL2SV13" label="Licence 2 Sciences de la vie et de la terre" periodes="" effectif="0" />
-    <etape id="TL2PP11" label="Licence 2 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="0" />
-    <etape id="TL2GE11" label="Licence 2 Géosciences" periodes="" effectif="0" />
-    <etape id="TM2IA1" label="M2 Informatique / Intelligence Artificielle" periodes="" effectif="0" />
-    <etape id="TM2SIE3" label="M2 Chimie / Sciences et ingénierie de l'environnement" periodes="" effectif="0" />
-    <etape id="TM1THE1" label="M1 THE / Toxicologie Humaine et Environnementale" periodes="" effectif="0" />
-    <etape id="TM2THE1" label="M2 THE / Toxicologie Humaine et Environnementale" periodes="" effectif="0" />
-    <etape id="TM1INF3" label="M1 Informatique" periodes="" effectif="0" />
-    <etape id="TM1PSI3" label="M1 Photonique signal imagerie (PSI)" periodes="" effectif="0" />
+    <etape id="TL1MP13" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="273" />
+    <etape id="TL1MP12" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="287" />
+    <etape id="TM1PSI4" label="M1 Photonique signal imagerie (PSI)" periodes="" effectif="25" />
+    <etape id="TM1BV4" label="M1 Biologie Végétale" periodes="" effectif="18" />
+    <etape id="TM2PSI4" label="M2 Photonique signal imagerie (PSI)" periodes="" effectif="20" />
+    <etape id="TM1CE3" label="M1 Chimie / Chimie-environnement" periodes="" effectif="23" />
+    <etape id="TM2CE3" label="M2 Chimie / Chimie-environnement" periodes="" effectif="18" />
+    <etape id="TM2GBI1" label="M2 BEE / Gestion de la biodiversité dans socio-écosystèmes" periodes="" effectif="13" />
+    <etape id="TM2MAD1" label="M1 BEE / Mer, anthropisation, diagnostic" periodes="" effectif="16" />
+    <etape id="TM1GBI1" label="M1 BEE / Gestion de la biodiversité dans socio-écosystèmes" periodes="" effectif="13" />
+    <etape id="TM1MAD1" label="M1 BEE / Mer, anthropisation, diagnostic" periodes="" effectif="16" />
+    <etape id="TL2SV12" label="Licence 2 Sciences de la vie et de la terre" periodes="" effectif="53" />
+    <etape id="TL2PC11" label="Licence 2 Physique-Chimie" periodes="" effectif="40" />
+    <etape id="TL2IN11" label="Licence 2 Informatique" periodes="" effectif="78" />
+    <etape id="TL2BI11" label="Licence 2 Biologies et Chimie" periodes="" effectif="47" />
+    <etape id="TL2BIS11" label="Licence 2 Biologies et Chimie - parcours santé" periodes="" effectif="17" />
+    <etape id="TL2PCS11" label="Licence 2 Physique-Chimie - parcours santé" periodes="" effectif="12" />
+    <etape id="TL2ME11" label="Licence 2 Double Licence Mathématiques / Math-Économie" periodes="" effectif="47" />
+    <etape id="TL2INS11" label="Licence 2 Informatique - parcours santé" periodes="" effectif="8" />
+    <etape id="TL2MP13" label="Licence 2 Sciences, technologies, santé / Portail MPCIE" periodes="" effectif="213" />
+    <etape id="TL2MA13" label="Licence 2 Mathématiques" periodes="" effectif="62" />
+    <etape id="TL2GES11" label="Licence 2 Géosciences - parcours santé" periodes="" effectif="38" />
+    <etape id="TL2MP12" label="Licence 2 Sciences, technologies, santé / Portail MPCIE" periodes="" effectif="213" />
+    <etape id="TL2SV13" label="Licence 2 Sciences de la vie et de la terre" periodes="" effectif="53" />
+    <etape id="TL2PP11" label="Licence 2 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="4" />
+    <etape id="TL2GE11" label="Licence 2 Géosciences" periodes="" effectif="29" />
+    <etape id="TM2IA1" label="M2 Informatique / Intelligence Artificielle" periodes="" effectif="15" />
+    <etape id="TM2SIE3" label="M2 Chimie / Sciences et ingénierie de l'environnement" periodes="" effectif="9" />
+    <etape id="TM1THE1" label="M1 THE / Toxicologie Humaine et Environnementale" periodes="" effectif="10" />
+    <etape id="TM2THE1" label="M2 THE / Toxicologie Humaine et Environnementale" periodes="" effectif="7" />
+    <etape id="TM1INF3" label="M1 Informatique" periodes="" effectif="32" />
+    <etape id="TM1PSI3" label="M1 Photonique signal imagerie (PSI)" periodes="" effectif="25" />
     <etape id="TM2CD1" label="M2 Informatique / Conception et Développement" periodes="" effectif="0" />
-    <etape id="TM2PSI3" label="M2 Photonique signal imagerie (PSI)" periodes="" effectif="0" />
-    <etape id="TM1SIE3" label="M1 Chimie / Sciences et ingénierie de l'environnement" periodes="" effectif="0" />
-    <etape id="TM2ICA3" label="M2 Biologie Santé / Interactions Cellulaires App Théra" periodes="" effectif="0" />
-    <etape id="TM1PPP1" label="M1 BG / Paléontologie, paléo-environnement + patrimoine" periodes="" effectif="0" />
-    <etape id="TM2PPP1" label="M2 BG / Paléontologie, paléo-environnement + patrimoine" periodes="" effectif="0" />
-    <etape id="TM1BS3" label="M1 Biologie Santé" periodes="" effectif="0" />
-    <etape id="TM2NCM3" label="M2 Biologie Santé / Neurobio Cellulaire Moléculaire" periodes="" effectif="0" />
-    <etape id="TM2DBN3" label="M2 Maths Appli / Data sciences + Données Bio + Numériques" periodes="" effectif="0" />
-    <etape id="TM1MFA3" label="M1 Maths appli / Mathématiques fondamentales et appliquées" periodes="" effectif="0" />
-    <etape id="TM1DBN3" label="M1 Maths appli / Data sciences + Données Bio + Numériques" periodes="" effectif="0" />
-    <etape id="TL3IN11" label="Licence 3 Informatique" periodes="" effectif="0" />
-    <etape id="TL3ME11" label="Licence 3 Double Licence Mathématiques / Math-Économie" periodes="" effectif="0" />
-    <etape id="TL3PP11" label="Licence 3 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="0" />
-    <etape id="TL3CE11" label="Licence 3 Physique Chimie / Chimie - environnement" periodes="" effectif="0" />
-    <etape id="TL3PA11" label="Licence 3 Physique Chimie / Physique applications" periodes="" effectif="0" />
-    <etape id="TL2IMA11" label="Licence 2 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
-    <etape id="TL3MAT11" label="Licence 3 Mathématiques" periodes="" effectif="0" />
-    <etape id="TL3MAT13" label="Licence 3 Mathématiques" periodes="" effectif="0" />
-    <etape id="TL3PA12" label="Licence 3 Physique Chimie / Physique applications" periodes="" effectif="0" />
-    <etape id="TL3CM11" label="Licence 3 Physique Chimie / Chimie - médicaments" periodes="" effectif="0" />
-    <etape id="TL3INS11" label="Licence 3 Informatique Parcours santé" periodes="" effectif="0" />
-    <etape id="TL1MAI11" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
+    <etape id="TM2PSI3" label="M2 Photonique signal imagerie (PSI)" periodes="" effectif="20" />
+    <etape id="TM1SIE3" label="M1 Chimie / Sciences et ingénierie de l'environnement" periodes="" effectif="14" />
+    <etape id="TM2ICA3" label="M2 Biologie Santé / Interactions Cellulaires App Théra" periodes="" effectif="6" />
+    <etape id="TM1PPP1" label="M1 BG / Paléontologie, paléo-environnement + patrimoine" periodes="" effectif="12" />
+    <etape id="TM2PPP1" label="M2 BG / Paléontologie, paléo-environnement + patrimoine" periodes="" effectif="11" />
+    <etape id="TM1BS3" label="M1 Biologie Santé" periodes="" effectif="23" />
+    <etape id="TM2NCM3" label="M2 Biologie Santé / Neurobio Cellulaire Moléculaire" periodes="" effectif="21" />
+    <etape id="TM2DBN3" label="M2 Maths Appli / Data sciences + Données Bio + Numériques" periodes="" effectif="28" />
+    <etape id="TM1MFA3" label="M1 Maths appli / Mathématiques fondamentales et appliquées" periodes="" effectif="35" />
+    <etape id="TM1DBN3" label="M1 Maths appli / Data sciences + Données Bio + Numériques" periodes="" effectif="31" />
+    <etape id="TL3IN11" label="Licence 3 Informatique" periodes="" effectif="59" />
+    <etape id="TL3ME11" label="Licence 3 Double Licence Mathématiques / Math-Économie" periodes="" effectif="42" />
+    <etape id="TL3PP11" label="Licence 3 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="6" />
+    <etape id="TL3CE11" label="Licence 3 Physique Chimie / Chimie - environnement" periodes="" effectif="25" />
+    <etape id="TL3PA11" label="Licence 3 Physique Chimie / Physique applications" periodes="" effectif="30" />
+    <etape id="TL2IMA11" label="Licence 2 Double Licence Mathématiques / Informatique" periodes="" effectif="28" />
+    <etape id="TL3MAT11" label="Licence 3 Mathématiques" periodes="" effectif="46" />
+    <etape id="TL3MAT13" label="Licence 3 Mathématiques" periodes="" effectif="46" />
+    <etape id="TL3PA12" label="Licence 3 Physique Chimie / Physique applications" periodes="" effectif="30" />
+    <etape id="TL3CM11" label="Licence 3 Physique Chimie / Chimie - médicaments" periodes="" effectif="18" />
+    <etape id="TL3INS11" label="Licence 3 Informatique Parcours santé" periodes="" effectif="9" />
+    <etape id="TL1MAI11" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="30" />
     <etape id="TL3MF11" label="L3 Spécifique aux métiers de l'édu., de l'ens. et de la for." periodes="" effectif="0" />
-    <etape id="TL3MAI11" label="Licence 3 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
-    <etape id="TL3CES11" label="L3 Physique Chimie/Chimie-environnement Parcours santé" periodes="" effectif="0" />
-    <etape id="TL3CE12" label="Licence 3 Physique Chimie / Chimie - environnement" periodes="" effectif="0" />
-    <etape id="TL3LMS11" label="Licence 3 Phys Chimie / Lum., mol. et ph.-ch. Parcours santé" periodes="" effectif="0" />
-    <etape id="TL3IMA11" label="Licence 3 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
+    <etape id="TL3MAI11" label="Licence 3 Double Licence Mathématiques / Informatique" periodes="" effectif="23" />
+    <etape id="TL3CES11" label="L3 Physique Chimie/Chimie-environnement Parcours santé" periodes="" effectif="11" />
+    <etape id="TL3CE12" label="Licence 3 Physique Chimie / Chimie - environnement" periodes="" effectif="25" />
+    <etape id="TL3LMS11" label="Licence 3 Phys Chimie / Lum., mol. et ph.-ch. Parcours santé" periodes="" effectif="19" />
+    <etape id="TL3IMA11" label="Licence 3 Double Licence Mathématiques / Informatique" periodes="" effectif="23" />
     <etape id="TL3PAS11" label="Licence 3 Phys Chimie / Physique applications Parcours santé" periodes="" effectif="0" />
     <etape id="TL3MTS11" label="Licence 3 Mathématiques Parcours santé" periodes="" effectif="0" />
-    <etape id="TL2PC14" label="Licence 2 Physique-Chimie" periodes="" effectif="0" />
-    <etape id="TL1MAI1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
-    <etape id="TL3CMS11" label="Licence 3 Physique Chimie/Chimie-médicaments Parcours santé" periodes="" effectif="0" />
-    <etape id="TL3MAA11" label="Licence 3 Mathématiques / Mathématiques appliquées" periodes="" effectif="0" />
-    <etape id="TL3MAS11" label="Licence 3 Math / Mathématiques appliquées Parcours santé" periodes="" effectif="0" />
-    <etape id="TL3LM11" label="Licence 3 Physique Chimie / Lumière, molécules et phy.-chim." periodes="" effectif="0" />
-    <etape id="TL2MAI11" label="Licence 2 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
+    <etape id="TL2PC14" label="Licence 2 Physique-Chimie" periodes="" effectif="41" />
+    <etape id="TL1MAI1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="39" />
+    <etape id="TL3CMS11" label="Licence 3 Physique Chimie/Chimie-médicaments Parcours santé" periodes="" effectif="14" />
+    <etape id="TL3MAA11" label="Licence 3 Mathématiques / Mathématiques appliquées" periodes="" effectif="24" />
+    <etape id="TL3MAS11" label="Licence 3 Math / Mathématiques appliquées Parcours santé" periodes="" effectif="4" />
+    <etape id="TL3LM11" label="Licence 3 Physique Chimie / Lumière, molécules et phy.-chim." periodes="" effectif="12" />
+    <etape id="TL2MAI11" label="Licence 2 Double Licence Mathématiques / Informatique" periodes="" effectif="28" />
     <etape id="TL3MFS11" label="L3 Spé. aux métiers de l'édu., de l'ens. et de la for. santé" periodes="" effectif="0" />
-    <etape id="TDOBOA1" label="DOCTORAT BIOLOGIE DES ORGANISMES AQUATIQUES" periodes="" effectif="0" />
-    <etape id="TM1LUM3" label="M1 Chimie / Lumière Molécule Matière (LUMOMAT)" periodes="" effectif="0" />
-    <etape id="TM2LUM3" label="M2 Chimie / Lumière Molécule Matière (LUMOMAT)" periodes="" effectif="0" />
-    <etape id="TL3BC11" label="Licence 3 SVT / Biologie cellulaire moléculaire et physiolo." periodes="" effectif="0" />
+    <etape id="TDOBOA1" label="DOCTORAT BIOLOGIE DES ORGANISMES AQUATIQUES" periodes="" effectif="2" />
+    <etape id="TM1LUM3" label="M1 Chimie / Lumière Molécule Matière (LUMOMAT)" periodes="" effectif="14" />
+    <etape id="TM2LUM3" label="M2 Chimie / Lumière Molécule Matière (LUMOMAT)" periodes="" effectif="13" />
+    <etape id="TL3BC11" label="Licence 3 SVT / Biologie cellulaire moléculaire et physiolo." periodes="" effectif="26" />
     <etape id="TL3BOS11" label="L3 SVT/Bio des organismes et des populations Parcours santé" periodes="" effectif="0" />
-    <etape id="TL3BO11" label="Licence 3 SVT / Biologie des organismes et des populations" periodes="" effectif="0" />
-    <etape id="TL3GE11" label="Licence 3 SVT / Géosciences et environnement" periodes="" effectif="0" />
-    <etape id="TL1MIP2" label="Licence 1 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="0" />
-    <etape id="TL1MIP1" label="Licence 1 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="0" />
-    <etape id="TL2MIP2" label="Licence 2 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="0" />
-    <etape id="TL2MIP1" label="Licence 2 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="0" />
+    <etape id="TL3BO11" label="Licence 3 SVT / Biologie des organismes et des populations" periodes="" effectif="17" />
+    <etape id="TL3GE11" label="Licence 3 SVT / Géosciences et environnement" periodes="" effectif="26" />
+    <etape id="TL1MIP2" label="Licence 1 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="14" />
+    <etape id="TL1MIP1" label="Licence 1 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="14" />
+    <etape id="TL2MIP2" label="Licence 2 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="15" />
+    <etape id="TL2MIP1" label="Licence 2 Sciences, technologies, santé / MI Partenaire" periodes="" effectif="15" />
     <etape id="TL3GES11" label="Licence 3 SVT / Géosciences et environnement Parcours santé" periodes="" effectif="0" />
-    <etape id="TL3BV12" label="Licence 3 SVT / Biologie végétale" periodes="" effectif="0" />
-    <etape id="TL3BV11" label="Licence 3 SVT / Biologie végétale" periodes="" effectif="0" />
+    <etape id="TL3BV12" label="Licence 3 SVT / Biologie végétale" periodes="" effectif="19" />
+    <etape id="TL3BV11" label="Licence 3 SVT / Biologie végétale" periodes="" effectif="19" />
     <etape id="TL3BVS11" label="Licence 3 SVT / Biologie végétale Parcours santé" periodes="" effectif="0" />
     <etape id="TL3BCS11" label="L3 SVT/Bio cellulaire moléculaire et physio. Parcours santé" periodes="" effectif="0" />
-    <etape id="TDOCOR1" label="DOCTORAT Chimie organique" periodes="" effectif="0" />
-    <etape id="TL1MAI1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
-    <etape id="TL1IMA1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="0" />
-    <etape id="TDOBMS1" label="DOCTORAT Biologie moléculaire et structurale, biochimie" periodes="" effectif="0" />
-    <etape id="TDOBGM1" label="DOCTORAT Biogéochimie marine" periodes="" effectif="0" />
-    <etape id="TM1BV3" label="M1 Biologie Végétale" periodes="" effectif="0" />
-    <etape id="TDOPS1" label="DOCTORAT Physique Subatomique (nucléaire et des particules)" periodes="" effectif="0" />
-    <etape id="TDORAD1" label="DOCTORAT Radiochimie" periodes="" effectif="0" />
-    <etape id="TDOBPE1" label="DOCTORAT BIO POP ECO" periodes="" effectif="0" />
+    <etape id="TDOCOR1" label="DOCTORAT Chimie organique" periodes="" effectif="3" />
+    <etape id="TL1MAI1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="42" />
+    <etape id="TL1IMA1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="41" />
+    <etape id="TDOBMS1" label="DOCTORAT Biologie moléculaire et structurale, biochimie" periodes="" effectif="1" />
+    <etape id="TDOBGM1" label="DOCTORAT Biogéochimie marine" periodes="" effectif="1" />
+    <etape id="TM1BV3" label="M1 Biologie Végétale" periodes="" effectif="8" />
+    <etape id="TDOPS1" label="DOCTORAT Physique Subatomique (nucléaire et des particules)" periodes="" effectif="2" />
+    <etape id="TDORAD1" label="DOCTORAT Radiochimie" periodes="" effectif="1" />
+    <etape id="TDOBPE1" label="DOCTORAT BIO POP ECO" periodes="" effectif="2" />
     <etape id="TDOEC1" label="DOCTORAT ÉCOLOGIE CHIMIQUE" periodes="" effectif="0" />
-    <etape id="TDOCMB1" label="DOCTORAT Chimie macromoléculaire - Biopolymères et Mat bios" periodes="" effectif="0" />
-    <etape id="TDOECT1" label="DOCTORAT Écotoxicologie" periodes="" effectif="0" />
+    <etape id="TDOCMB1" label="DOCTORAT Chimie macromoléculaire - Biopolymères et Mat bios" periodes="" effectif="1" />
+    <etape id="TDOECT1" label="DOCTORAT Écotoxicologie" periodes="" effectif="3" />
     <etape id="TDOCPN1" label="DOCTORAT CHIMIE DES  PRODUITS NATURELS" periodes="" effectif="0" />
-    <etape id="TL1MP14" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="0" />
-    <etape id="TDOPA1" label="DOCTORAT Paléoocéanographie" periodes="" effectif="0" />
-    <etape id="TDOGCH1" label="DOCTORAT Géochimie" periodes="" effectif="0" />
-    <etape id="TL2PC12" label="Licence 2 Physique-Chimie" periodes="" effectif="0" />
-    <etape id="TL2MAS11" label="Licence 2 Mathématiques - parcours santé" periodes="" effectif="0" />
-    <etape id="TL2PC13" label="Licence 2 Physique-Chimie" periodes="" effectif="0" />
-    <etape id="TL2MA11" label="Licence 2 Mathématiques" periodes="" effectif="0" />
-    <etape id="TLPMI1" label="LP Métiers de l'informatique : applications web" periodes="" effectif="0" />
+    <etape id="TL1MP14" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="273" />
+    <etape id="TDOPA1" label="DOCTORAT Paléoocéanographie" periodes="" effectif="1" />
+    <etape id="TDOGCH1" label="DOCTORAT Géochimie" periodes="" effectif="2" />
+    <etape id="TL2PC12" label="Licence 2 Physique-Chimie" periodes="" effectif="41" />
+    <etape id="TL2MAS11" label="Licence 2 Mathématiques - parcours santé" periodes="" effectif="5" />
+    <etape id="TL2PC13" label="Licence 2 Physique-Chimie" periodes="" effectif="41" />
+    <etape id="TL2MA11" label="Licence 2 Mathématiques" periodes="" effectif="62" />
+    <etape id="TLPMI1" label="LP Métiers de l'informatique : applications web" periodes="" effectif="4" />
   </etapes>
 </config>

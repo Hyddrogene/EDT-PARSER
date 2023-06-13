@@ -29,11 +29,12 @@ public class Parser {
       // Send request to API
       List<Teacher> teachers = TeacherParser.parseEnseignants(config.getYear());
       List<Room> rooms = RoomParser.parseSalles(config.getYear());
-      List<Course> etapes = CourseParser.parseEtapes(config, calendar, rooms);
+      ResultCourseParser resultCourseParser = CourseParser.parseCourses(config, calendar, rooms);
 
       timetable.setTeachers(teachers);
       timetable.setRooms(rooms);
-      timetable.setCourses(etapes);
+      timetable.setCourses(resultCourseParser.getCourses());
+      timetable.setSolution(resultCourseParser.getSolution());
 
       return timetable;
     } catch (Exception e) {

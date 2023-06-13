@@ -20,7 +20,7 @@ public class Main {
       File file = new File(filename);
       ConfigurationFile config = ConfigurationParser.parse(file);
       Timetabling timetable = Parser.parseTimetable(config);
-      timetable.exportXML("src\\main\\java\\com\\leria\\parser\\Data\\" + config.getName() + ".xml");
+      timetable.exportXML(config.getName() + " - " + config.getYear() + ".xml");
     } catch (Exception e) {
       System.out.println("<ERROR> " + e.getMessage());
     }

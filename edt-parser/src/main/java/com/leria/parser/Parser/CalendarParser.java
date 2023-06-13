@@ -15,12 +15,9 @@ public class CalendarParser {
   }
 
   public static UACalendar parseCalendar(ConfigurationFile config) throws Exception {
-    System.out.println("Parsing etapes");
+    System.out.println("Parsing calendar");
     try { // Send request to API
       HttpResponse<String> response = API.requestEtapeCalendars(config.getYear());
-      if (response.body().equals("")) {
-        throw new Exception("The EtapeCalendar API returned a null response, check that the server is up and running");
-      }
       Gson gson = new Gson();
       EtapeCalendar[] etapeCalendars = gson.fromJson(response.body(), EtapeCalendar[].class);
       List<EtapeCalendar> etapes = new ArrayList<>();
