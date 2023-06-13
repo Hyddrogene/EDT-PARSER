@@ -17,7 +17,7 @@ public class RoomParser {
 
   public static List<Room> parseSalles(String year) throws Exception {
     List<Room> rooms = new ArrayList<>();
-    System.out.print("Parsing rooms\r");
+    System.out.println("Parsing rooms");
     try {
       HttpResponse<String> response = API.requestSalles(year);
       Gson gson = new Gson();

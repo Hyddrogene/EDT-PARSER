@@ -6,7 +6,7 @@
 
   <groupId>com.leria.parser</groupId>
   <artifactId>edt-parser</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>edt-parser</name>
   <!-- FIXME change it to the project's website -->

@@ -1,22 +1,22 @@
 package com.leria.parser.Models.UA;
 
 public class EtapeCalendar {
-  private String etape;
+  private String etape_id;
   private int startingWeek;
   private int endingWeek;
 
-  public EtapeCalendar(String etape, int startingWeek, int endingWeek) {
-    this.etape = etape;
+  public EtapeCalendar(String etape_id, int startingWeek, int endingWeek) {
+    this.etape_id = etape_id;
     this.startingWeek = startingWeek;
     this.endingWeek = endingWeek;
   }
 
   public String getEtape() {
-    return etape;
+    return etape_id;
   }
 
-  public void setEtape(String etape) {
-    this.etape = etape;
+  public void setEtape(String etape_id) {
+    this.etape_id = etape_id;
   }
 
   public int getStartingWeek() {
@@ -36,6 +36,6 @@ public class EtapeCalendar {
   }
 
   public boolean compare(String id) {
-    return this.etape.equals(id);
+    return this.etape_id.equals(id);
   }
 }

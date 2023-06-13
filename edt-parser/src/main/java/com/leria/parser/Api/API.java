@@ -35,7 +35,7 @@ public class API {
   }
 
   public static HttpResponse<String> requestServiceEnseignant(String year, String courseId, String type) {
-    return sendRequestAPI("teacher_service_sheet", courseId + "/" + type);
+    return sendRequestAPI("teacher_service_sheet/course", courseId + "/" + type);
   }
 
   private static HttpResponse<String> sendRequestUA(String api, String args) {

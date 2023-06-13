@@ -1,7 +1,7 @@
 package com.leria.parser.Api;
 
 public class UAKey {
-  private final static String UA_KEY = "**Enter your key here**";
+  private final static String UA_KEY = "***Enter your UA key here***";
 
   private UAKey() {
   }

@@ -17,7 +17,7 @@ public class UniqueId {
   public static UniqueId getUniqueId(String id) {
     UniqueId i = find(id);
     if (i == null)
-      throw new IllegalArgumentException("Id does not exist");
+      throw new IllegalArgumentException("The Id : \"" + id + "\" does not exist");
     return i;
   }
 

@@ -18,6 +18,7 @@ public class Timetabling {
   private List<Teacher> teachers;
   private List<Course> courses;
   private List<Student> students;
+  private Solution solution;
 
   public Timetabling(String name, int nrWeeks, int nrDaysPerWeek, int nrSlotsPerDay) {
     if (nrWeeks < 0)
@@ -122,6 +123,14 @@ public class Timetabling {
     return students;
   }
 
+  public Solution getSolution() {
+    return solution;
+  }
+
+  public void setSolution(Solution solution) {
+    this.solution = solution;
+  }
+
   public String toString() {
     return "Timetabling [name=" + name + ", nrWeeks=" + nrWeeks + ", nrDaysPerWeek=" + nrDaysPerWeek
         + ", nrSlotsPerDay=" + nrSlotsPerDay + ", calendar=" + calendar + ", rooms=" + rooms + ", equipments="
@@ -172,6 +181,8 @@ public class Timetabling {
         }
         file.write("</students>\n");
       }
+      if (solution != null)
+        solution.exportXML(file);
       file.write("</timetabling>\n");
     } catch (Exception e) {
       System.out.println("Error while exporting XML");
