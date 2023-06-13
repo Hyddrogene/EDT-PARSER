@@ -18,6 +18,7 @@ Le dépôt est scindé en 2 parties. La première est le [parser](https://github
 
 ## Utilisation
 Le partie parser du projet utilise [Maven](https://maven.apache.org/) afin de gérer les dépendances et le compiler. Pensez à modifier la clé d'accès à l'API de la DDN avant d'exécuter le projet. Vous pouvez modifier entrer cette clé dans le fichier de classe [UAKey](https://github.com/adelestre/edt-parser/blob/7186ca60bcaf233bbace3b5d6be0f409d83ed888/edt-parser/src/main/java/com/leria/parser/Api/UAKey.java).
+
 Si vous n'êtes pas familier avec l'outil Maven et que vous souhaitez lancer le programme, suivez ces quelques étapes : Assurez vous tout d'abord que Maven soit présent sur votre ordinateur en tapant dans la ligne de commande `mvn -v`. Si cela ne vous affiche pas le détail de la version de Maven, suivez les instructions [ici](https://maven.apache.org/install.html) pour installer Maven. Naviguez ensuite jusqu'à la racine de la sous-partie du projet [edt-parser](https://github.com/adelestre/edt-parser/tree/3f3f5f8509ba006bb07af388e5361d9fa062c5ec/edt-parser) où vous devriez retrouver le fichier pom.xml. Depuis ce dossier, exécutez la commande `mvn package` qui va assembler le code source en un fichier distribuable .jar. Une fois le traitement terminé, il ne reste plus qu'à exécuter la projet avec la commande `java -cp target/edt-parser-1.0.jar com.leria.parser.Main`.
 
 ## Modélisation de l'emploi du temps
