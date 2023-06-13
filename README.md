@@ -1,3 +1,4 @@
+
 # EDT-Parser
 Ce projet a pour but d'agréger toutes les informations nécessaires à la conception d'un emploi du temps universitaire dans un fichier XML.
 Ces informations sont récupérées depuis différentes sources dont les principales sont les différentes API procurées par la DDN et un fichier de configuration écrit directement par le client.
@@ -5,14 +6,18 @@ Ces informations sont récupérées depuis différentes sources dont les princip
 ## Sommaire
 
  1. [Contenu du dépôt](#contenu-du-dépôt)
- 2. [Modélisation de l'emploi du temps](#modélisation-de-lemploi-du-temps)
- 3. [Fichier de configuration](#fichier-de-configuration)
- 4. [Les requêtes API](#les-requêtes-api)
- 5. [Le parser](#le-parser)
- 6. [Les services API fournis](#les-services-api-fournis)
+ 2. [Utilisation](#utilisation)
+ 3. [Modélisation de l'emploi du temps](#modélisation-de-lemploi-du-temps)
+ 4. [Fichier de configuration](#fichier-de-configuration)
+ 5. [Les requêtes API](#les-requêtes-api)
+ 6. [Le parser](#le-parser)
+ 7. [Les services API fournis](#les-services-api-fournis)
 
 ## Contenu du dépôt
 Le dépôt est scindé en 2 parties. La première est le [parser](https://github.com/adelestre/edt-parser/tree/2d4e3aa9bbea6ce1b9070e89a837e9d37d195418/edt-parser/src/main/java/com/leria/parser) lui-même, rassemblant toutes les classes utiles à la récupération des données et à leur modélisation au format XML. La [seconde partie](https://github.com/adelestre/edt-parser/tree/2d4e3aa9bbea6ce1b9070e89a837e9d37d195418/edt-api) contient 2 fichiers. L'un est un [fichier SQL](https://github.com/adelestre/edt-parser/blob/2d4e3aa9bbea6ce1b9070e89a837e9d37d195418/edt-api/edt-api.sql) permettant la création d'une base de données contenant les différentes informations qui ne nous sont pour le moment pas encore procurées. Le second est une compression du [Web Project](https://github.com/adelestre/edt-parser/blob/2d4e3aa9bbea6ce1b9070e89a837e9d37d195418/edt-api/edt-api.war) (WAR) permettant l'interaction avec cette base de données sous la forme d'une API. Cette seconde partie est une solution temporaire, locale et probablement peu robuste.
+
+## Utilisation
+Le partie parser du projet utilise [Maven](https://maven.apache.org/) afin de gérer les dépendances et le compiler. Si vous n'êtes pas familier avec l'outil Maven et que vous souhaitez lancer le programme, suivez ces quelques étapes : Assurez vous tout d'abord que Maven soit présent sur votre ordinateur en tapant dans la ligne de commande `mvn -v`. Si cela ne vous affiche pas le détail de la version de Maven, suivez les instructions [ici](https://maven.apache.org/install.html) pour installer Maven. Naviguez ensuite en ligne de commande jusqu'à la racine de la sous-partie du projet [edt-parser](https://github.com/adelestre/edt-parser/tree/3f3f5f8509ba006bb07af388e5361d9fa062c5ec/edt-parser) où vous devriez retrouver le fichier pom.xml. Depuis ce dossier, exécutez la commande `mvn package` qui va assembler le code source en un fichier distribuable .jar. Une fois le traitement terminé, il ne reste plus qu'à exécuter la projet avec la commande `java -cp target/edt-parser-1.0.jar com.leria.parser.Main`.
 
 ## Modélisation de l'emploi du temps
 Il existe dans le projet 2 différentes modélisations utilisées simultanément. La [première modélisation](https://github.com/adelestre/edt-parser/tree/2d4e3aa9bbea6ce1b9070e89a837e9d37d195418/edt-parser/src/main/java/com/leria/parser/Models/Leria) correspond au modèle utilisé par le laboratoire LERIA. C'est d'après ce modèle que toutes les informations sont assemblées pour former la sortie finale. Elle est inspirée de ce [schéma](https://ua-usp.github.io/timetabling/assets/schema/usp_timetabling_v0_3.xsd) dont la [documentation](https://ua-usp.github.io/timetabling/schema) s'applique tout autant à cette modélisation. La [seconde modélisation](https://github.com/adelestre/edt-parser/tree/2d4e3aa9bbea6ce1b9070e89a837e9d37d195418/edt-parser/src/main/java/com/leria/parser/Models/UA) est un mappage directe des informations récupérées des API de la DDN. Elle sert principalement à faire le pont entre ces API et le premier modèle.
