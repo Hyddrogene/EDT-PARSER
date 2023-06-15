@@ -45,22 +45,31 @@ public class Group {
   }
 
   public void addClass(String classe) {
-    classes.add(classe);
+    if (!classes.contains(classe)) {
+      classes.add(classe);
+    }
   }
 
   public void exportXML(FileWriter writer) {
     try {
       if (students.isEmpty() && classes.isEmpty())
         return;
-      writer.write("<group id=\"" + id + "\">\n<students>\n");
-      for (String student : students) {
-        writer.write("<student refId=\"" + student + "\"/>\n");
+      writer.write("<group id=\"" + id + "\">\n");
+      if (!students.isEmpty()) {
+        writer.write("<students>\n");
+        for (String student : students) {
+          writer.write("<student refId=\"" + student + "\"/>\n");
+        }
+
       }
-      writer.write("</students>\n<classes>\n");
-      for (String classe : classes) {
-        writer.write("<class refId=\"" + classe + "\"/>\n");
+      if (!classes.isEmpty()) {
+        writer.write("<classes>\n");
+        for (String classe : classes) {
+          writer.write("<class refId=\"" + classe + "\"/>\n");
+        }
+        writer.write("</classes>\n");
       }
-      writer.write("</classes>\n</group>\n");
+      writer.write("</group>\n");
     } catch (Exception e) {
       System.out.println("Error while exporting part");
       e.printStackTrace();

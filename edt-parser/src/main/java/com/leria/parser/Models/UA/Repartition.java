@@ -40,6 +40,14 @@ public class Repartition {
     return groupsTP;
   }
 
+  public GroupTD getGroupTD(int n) {
+    for (GroupTD group : groupsTD) {
+      if (group.getN() == n)
+        return group;
+    }
+    return null;
+  }
+
   public GroupTP getGroupTP(int n) {
     for (GroupTP group : groupsTP) {
       if (group.getN() == n)

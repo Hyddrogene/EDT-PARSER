@@ -26,7 +26,8 @@ public class RoomParser {
         if (!UniqueId.exists(uaSalle.getNoSalle()))
           rooms.add(uaSalleToSalle(uaSalle));
         else {
-          System.out.println("<WARNING> Room " + uaSalle.getNoSalle() + " was ignored because its id already exists");
+          System.out.println("<WARNING> The Room " + uaSalle.getNomSalle() + " " + uaSalle.getDepartement()
+              + " (" + uaSalle.getNoSalle() + ") was ignored because its id already exists");
         }
       }
       System.out.println("Parsed " + rooms.size() + " rooms");
