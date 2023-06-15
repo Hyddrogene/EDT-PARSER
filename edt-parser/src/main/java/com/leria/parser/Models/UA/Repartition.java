@@ -78,7 +78,7 @@ public class Repartition {
 
   public List<GroupTP> getGroupsTPByParentCM(int parent) {
     List<GroupTP> groups = new ArrayList<>();
-    getGroupsTDByParent(parent).forEach(group -> groups.addAll(getGroupsTPByParentTD(group.getParent())));
+    getGroupsTDByParent(parent).forEach(group -> groups.addAll(getGroupsTPByParentTD(group.getN())));
     return groups;
   }
 
