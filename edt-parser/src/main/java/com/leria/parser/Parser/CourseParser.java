@@ -71,7 +71,8 @@ public class CourseParser {
           etapes.addAll(etapeToCourses(etape, config, calendar, solution, rooms));
         } else {
           System.out
-              .println("<WARNING> Etape " + baseEtape.getCodeEtape() + " was ignored because it was not selected");
+              .println("<WARNING> The Etape " + baseEtape.getLibEtape() + " (" + baseEtape.getCodeEtape()
+                  + ") was ignored because it was not selected");
         }
       }
       System.out.println("Parsed " + baseEtapes.length + " etapes            \n");
@@ -110,7 +111,8 @@ public class CourseParser {
           courses.add(uaCourseToCourse(etape, config, course, calendar, etapeCalendar, solution, rooms));
         else {
           System.out.println(
-              "<WARNING> Course " + course.getNoElement() + " was ignored because its period was not selected");
+              "<WARNING> The Course " + course.getLibElement() + " (" + course.getNoElement()
+                  + ") was ignored because its period was not selected");
         }
       }
     }
@@ -216,8 +218,16 @@ public class CourseParser {
     // Create classes
     Classes classes = new Classes(new ArrayList<Class>(), MAX_HEAD_COUNT_TD);
     for (int i = 1; i <= etape.getRepartition().getNrClassesTD(); i++) {
-      Class c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+      String parent = uaCourse.getNoElement() + "-CM-" + etape.getRepartition().getGroupTD(i).getParent();
+      Class c;
+      if (UniqueId.exists(parent)) {
+        c = new Class(part.getId() + "-" + i, parent, part.getLabel() + "-" + i);
+      } else {
+        c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+      }
       classes.addClass(c);
+      // For each group (class TP) that has this TD as parent, add the class to the
+      // group (in the solution)
       etape.getRepartition().getGroupsTPByParentTD(i)
           .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getN())
               .addClass(c.getId().getId()));
@@ -265,7 +275,13 @@ public class CourseParser {
     // Create classes
     Classes classes = new Classes(new ArrayList<Class>(), MAX_HEAD_COUNT_TP);
     for (int i = 1; i <= etape.getRepartition().getNrClassesTP(); i++) {
-      Class c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+      String parent = uaCourse.getNoElement() + "-TD-" + etape.getRepartition().getGroupTP(i).getParent();
+      Class c;
+      if (UniqueId.exists(parent)) {
+        c = new Class(part.getId() + "-" + i, parent, part.getLabel() + "-" + i);
+      } else {
+        c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+      }
       classes.addClass(c);
       solution.getGroupById(etape.getCodeEtape() + "-G" + i)
           .addClass(c.getId().getId());
@@ -313,7 +329,13 @@ public class CourseParser {
     // Create classes
     Classes classes = new Classes(new ArrayList<Class>(), MAX_HEAD_COUNT_TD);
     for (int i = 1; i <= etape.getRepartition().getNrClassesTD(); i++) {
-      Class c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+      String parent = uaCourse.getNoElement() + "-CM-" + etape.getRepartition().getGroupTD(i).getParent();
+      Class c;
+      if (UniqueId.exists(parent)) {
+        c = new Class(part.getId() + "-" + i, parent, part.getLabel() + "-" + i);
+      } else {
+        c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+      }
       classes.addClass(c);
       etape.getRepartition().getGroupsTPByParentTD(i)
           .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getN())
