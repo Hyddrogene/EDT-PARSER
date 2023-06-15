@@ -133,8 +133,13 @@ public class CourseParser {
     int startingWeek = 1;
     int endingWeek = calendar.getNrWeeks();
     if (etapeCalendar != null) {
-      startingWeek = calendar.getStartingWeek() - etapeCalendar.getStartingWeek() + 1;
+      startingWeek = etapeCalendar.getStartingWeek() - calendar.getStartingWeek() + 1;
       endingWeek = etapeCalendar.getEndingWeek() - calendar.getStartingWeek();
+      if (startingWeek < 1)
+        System.out.println("<WARNING> The starting week for " + course.getLabel() + " is before the starting week of "
+            + calendar.getStartingWeek() + " (" + calendar.getStartingWeek()
+            + "). The starting week for this course will be set to 1");
+      startingWeek = 1;
     }
 
     // Create CM part
