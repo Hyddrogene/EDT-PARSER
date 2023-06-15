@@ -277,7 +277,7 @@ public class CourseParser {
     for (int i = 1; i <= etape.getRepartition().getNrClassesTP(); i++) {
       String parent = uaCourse.getNoElement() + "-TD-" + etape.getRepartition().getGroupTP(i).getParent();
       Class c;
-      if (UniqueId.exists(parent)) {
+      if (UniqueId.exists(parent) && !etape.getRepartition().getGroupTP(i).has2Parents()) {
         c = new Class(part.getId() + "-" + i, parent, part.getLabel() + "-" + i);
       } else {
         c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
