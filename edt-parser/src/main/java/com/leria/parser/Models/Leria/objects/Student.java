@@ -56,7 +56,7 @@ public class Student {
       if (coursesRefIds.size() > 0) {
         file.write("<courses>\n");
         for (UniqueId courseRefId : coursesRefIds) {
-          file.write("<course refId=" + courseRefId + "/>\n");
+          file.write("<course refId=\"" + courseRefId + "\" />\n");
         }
         file.write("</courses>\n");
       }
