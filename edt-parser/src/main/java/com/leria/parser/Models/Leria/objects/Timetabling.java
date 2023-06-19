@@ -79,7 +79,7 @@ public class Timetabling {
     this.courses.addAll(courses);
   }
 
-  public void setStudent(List<Student> students) {
+  public void setStudents(List<Student> students) {
     this.students = students;
   }
 
@@ -119,7 +119,7 @@ public class Timetabling {
     return courses;
   }
 
-  public List<Student> getStudent() {
+  public List<Student> getStudents() {
     return students;
   }
 

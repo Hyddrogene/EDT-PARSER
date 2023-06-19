@@ -4,33 +4,44 @@ import java.util.List;
 import com.leria.parser.Models.Leria.objects.Class;
 
 public class GroupTP {
-  private int n;
+  private int numeroGroupe;
+  private int effectif;
   private int parent;
   private int parent2;
   List<Class> classes;
 
-  public GroupTP(int n, int parent) {
-    this.n = n;
+  public GroupTP(int numeroGroupe, int effectif, int parent) {
+    this.numeroGroupe = numeroGroupe;
+    this.effectif = effectif;
     this.parent = parent;
     this.parent2 = 0;
   }
 
-  public GroupTP(int n, int parent, int parent2) {
-    this.n = n;
+  public GroupTP(int numeroGroupe, int effectif, int parent, int parent2) {
+    this.numeroGroupe = numeroGroupe;
+    this.effectif = effectif;
     this.parent = parent;
     this.parent2 = parent2;
   }
 
-  public int getN() {
-    return n;
+  public int getNumeroGroupe() {
+    return numeroGroupe;
+  }
+
+  public int getEffectif() {
+    return effectif;
   }
 
   public int getParent() {
     return parent;
   }
 
-  public void setN(int n) {
-    this.n = n;
+  public void setNumeroGroupe(int numeroGroupe) {
+    this.numeroGroupe = numeroGroupe;
+  }
+
+  public void setEffectif(int effectif) {
+    this.effectif = effectif;
   }
 
   public void setParent(int parent) {
@@ -47,10 +58,5 @@ public class GroupTP {
 
   public boolean has2Parents() {
     return parent2 != 0;
-  }
-
-  @Override
-  public String toString() {
-    return (has2Parents() ? Integer.toString(parent) + "-" + Integer.toString(parent2) : Integer.toString(parent));
   }
 }

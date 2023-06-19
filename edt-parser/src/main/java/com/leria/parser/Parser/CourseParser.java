@@ -19,6 +19,7 @@ import com.leria.parser.Models.Leria.objects.Group;
 import com.leria.parser.Models.Leria.objects.Part;
 import com.leria.parser.Models.Leria.objects.Room;
 import com.leria.parser.Models.Leria.objects.Solution;
+import com.leria.parser.Models.Leria.objects.Student;
 import com.leria.parser.Models.Leria.types.IntegerRange;
 import com.leria.parser.Models.Leria.types.IntegerRangeMin;
 import com.leria.parser.Models.Leria.types.UniqueId;
@@ -44,6 +45,7 @@ public class CourseParser {
   public static ResultCourseParser parseCourses(ConfigurationFile config, UACalendar calendar, List<Room> rooms)
       throws Exception {
     List<Course> etapes = new ArrayList<>();
+    List<Student> students = new ArrayList<>();
     Solution solution = new Solution(new ArrayList<>());
 
     System.out.println("Parsing etapes");
@@ -65,8 +67,15 @@ public class CourseParser {
               GroupCalculations.calculRepartitions(selectEtape.getEffectif()));
 
           // Create the groups (from groups TP)
-          etape.getRepartition().getGroupsTP().forEach(group -> solution
-              .addGroup(new Group(etape.getCodeEtape() + "-G" + group.getN(), new ArrayList<>(), new ArrayList<>())));
+          etape.getRepartition().getGroupsTP().forEach(group -> {
+            Group g = new Group(etape.getCodeEtape() + "-G" + group.getNumeroGroupe(), new ArrayList<>(),
+                new ArrayList<>());
+            for (int j = 0; j < group.getEffectif(); j++) {
+              students.add(new Student("S" + Student.nextId(), "Student" + Student.getCount(), new ArrayList<>()));
+              g.addStudent("S" + Student.getCount());
+            }
+            solution.addGroup(g);
+          });
 
           etapes.addAll(etapeToCourses(etape, config, calendar, solution, rooms));
         } else {
@@ -76,7 +85,7 @@ public class CourseParser {
         }
       }
       System.out.println("Parsed " + baseEtapes.length + " etapes            \n");
-      return new ResultCourseParser(etapes, solution);
+      return new ResultCourseParser(etapes, students, solution);
     } catch (Exception e) {
       throw new Exception("Error while parsing etapes : " + e.getMessage());
     }
@@ -177,7 +186,7 @@ public class CourseParser {
       Class c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
       classes.addClass(c);
       etape.getRepartition().getGroupsTPByParentCM(i)
-          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getN())
+          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getNumeroGroupe())
               .addClass(c.getId().getId()));
     }
     part.setClasses(classes);
@@ -234,7 +243,7 @@ public class CourseParser {
       // For each group (class TP) that has this TD as parent, add the class to the
       // group (in the solution)
       etape.getRepartition().getGroupsTPByParentTD(i)
-          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getN())
+          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getNumeroGroupe())
               .addClass(c.getId().getId()));
     }
     part.setClasses(classes);
@@ -343,7 +352,7 @@ public class CourseParser {
       }
       classes.addClass(c);
       etape.getRepartition().getGroupsTPByParentTD(i)
-          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getN())
+          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getNumeroGroupe())
               .addClass(c.getId().getId()));
     }
     part.setClasses(classes);

@@ -42,7 +42,7 @@ public class Repartition {
 
   public GroupTD getGroupTD(int n) {
     for (GroupTD group : groupsTD) {
-      if (group.getN() == n)
+      if (group.getNumeroGroupe() == n)
         return group;
     }
     return null;
@@ -50,7 +50,7 @@ public class Repartition {
 
   public GroupTP getGroupTP(int n) {
     for (GroupTP group : groupsTP) {
-      if (group.getN() == n)
+      if (group.getNumeroGroupe() == n)
         return group;
     }
     return null;
@@ -86,7 +86,7 @@ public class Repartition {
 
   public List<GroupTP> getGroupsTPByParentCM(int parent) {
     List<GroupTP> groups = new ArrayList<>();
-    getGroupsTDByParent(parent).forEach(group -> groups.addAll(getGroupsTPByParentTD(group.getN())));
+    getGroupsTDByParent(parent).forEach(group -> groups.addAll(getGroupsTPByParentTD(group.getNumeroGroupe())));
     return groups;
   }
 

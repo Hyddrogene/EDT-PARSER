@@ -34,6 +34,7 @@ public class Parser {
       timetable.setTeachers(teachers);
       timetable.setRooms(rooms);
       timetable.setCourses(resultCourseParser.getCourses());
+      timetable.setStudents(StudentParser.parseStudent(resultCourseParser));
       timetable.setSolution(resultCourseParser.getSolution());
 
       return timetable;
