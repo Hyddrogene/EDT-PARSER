@@ -1,0 +1,30 @@
+<?xml version = "1.0"?>
+<config>
+  <name>Timetable</name>
+  <year>2021</year>
+  <nrDaysPerWeek>5</nrDaysPerWeek>
+  <nrSlotsPerDay>1440</nrSlotsPerDay>
+  <etapes>
+    
+    <!-- New L2 2022 -->
+    <etape id="TL2IN11" label="Licence 2 Informatique" periodes="" effectif="1" />
+
+   <!-- Nouvelle L3 non pourvu --> 
+    <etape id="TL3MAT11" label="Licence 3 Mathématiques" periodes="" effectif="1" />
+    <etape id="TL3MAT13" label="Licence 3 Mathématiques" periodes="" effectif="1" />
+    
+    <!-- L3 2017 -->
+    <etape id="TL3INF1" label="Licence 3 Informatique" periodes="" effectif="1" />
+    <etape id="TL3MAT1" label="Licence 3 Mathématiques" periodes="" effectif="1" />
+    <etape id="TL3MAT2" label="Licence 3 Mathématiques" periodes="" effectif="1" /><!-- old -->
+    <!-- L1 2021 -->
+
+   <etape id="TL1MP13" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="1" />
+   <etape id="TL1MP12" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="1" />
+   <etape id="TL1MP14" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="1" />
+   <etape id="TL1MP11" label="Licence 1 Sciences, technologies, santé / Portail MPC" periodes="" effectif="1" />
+
+   
+
+  </etapes>
+</config>

@@ -1,0 +1,2506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timetabling xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd" name="Timetable" nrWeeks="0" nrDaysPerWeek="5" nrSlotsPerDay="1440">
+<rooms>
+<room id="R143399" capacity="14" label="A014 Salle syndicale et Réunion 14p, Salle de TP, UFR SCIENCES" />
+<room id="R143400" capacity="20" label="A019 (avec vidéoprojecteur) - CELFE, Salle de TP, UFR SCIENCES" />
+<room id="R143401" capacity="20" label="A020 Salle de Visioconférence + Réunion 20p, Salle de TP, UFR SCIENCES" />
+<room id="R143402" capacity="20" label="A115 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143403" capacity="40" label="A116 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143404" capacity="40" label="A117 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143405" capacity="32" label="A118 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143406" capacity="30" label="A119 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143407" capacity="40" label="A120 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143434" capacity="20" label="G001, Salle de TP, UFR SCIENCES" />
+<room id="R143435" capacity="20" label="G002, Salle de TP, UFR SCIENCES" />
+<room id="R143436" capacity="25" label="G003, Salle de TP, UFR SCIENCES" />
+<room id="R143437" capacity="20" label="G101 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143438" capacity="20" label="G102 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143439" capacity="20" label="G103 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143440" capacity="20" label="G104 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143441" capacity="20" label="G105 Informatique 10, Salle de TP, UFR SCIENCES" />
+<room id="R143442" capacity="20" label="G204 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143443" capacity="24" label="G205, Salle de TP, UFR SCIENCES" />
+<room id="R143445" capacity="20" label="H001, Salle de TP, UFR SCIENCES" />
+<room id="R143446" capacity="40" label="H002 Informatique 20, Salle de TD, UFR SCIENCES" />
+<room id="R143447" capacity="40" label="H003 Informatique 20, Salle de TD, UFR SCIENCES" />
+<room id="R143450" capacity="20" label="H217 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143451" capacity="44" label="I002, Salle de TD, UFR SCIENCES" />
+<room id="R143452" capacity="44" label="I003, Salle de TD, UFR SCIENCES" />
+<room id="R143453" capacity="48" label="I004, Salle de TD, UFR SCIENCES" />
+<room id="R143454" capacity="44" label="I005, Salle de TD, UFR SCIENCES" />
+<room id="R143455" capacity="40" label="I006, Salle de TD, UFR SCIENCES" />
+<room id="R143456" capacity="21" label="I008 Informatique 21, Salle de TP, UFR SCIENCES" />
+<room id="R143458" capacity="100" label="AMPHI L001, Amphi, UFR SCIENCES" />
+<room id="R143459" capacity="200" label="AMPHI L002, Amphi, UFR SCIENCES" />
+<room id="R143460" capacity="100" label="AMPHI L003, Amphi, UFR SCIENCES" />
+<room id="R143461" capacity="150" label="AMPHI L004, Amphi, UFR SCIENCES" />
+<room id="R143462" capacity="150" label="AMPHI L005, Amphi, UFR SCIENCES" />
+<room id="R143463" capacity="200" label="AMPHI L006, Amphi, UFR SCIENCES" />
+<room id="R143464" capacity="44" label="L101 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143465" capacity="46" label="L102 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143466" capacity="46" label="L103 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143467" capacity="44" label="L104 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143468" capacity="44" label="L105 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143469" capacity="40" label="L106 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143470" capacity="20" label="L107 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143471" capacity="40" label="L108 Informatique 20, Salle de TD, UFR SCIENCES" />
+<room id="R143474" capacity="46" label="L201 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143475" capacity="46" label="L202 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143476" capacity="48" label="L203 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143477" capacity="46" label="L204 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143478" capacity="48" label="L205 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143479" capacity="30" label="L206 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143480" capacity="24" label="L207 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143481" capacity="24" label="L208 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143482" capacity="24" label="L209 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143483" capacity="48" label="L210 Multimédia, Salle de TD, UFR SCIENCES" />
+<room id="R143484" capacity="20" label="L211 Informatique 20, Salle de TP, UFR SCIENCES" />
+<room id="R143485" capacity="15" label="L212 Informatique 15, Salle de TP, UFR SCIENCES" />
+<room id="R143487" capacity="18" label="L219 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143488" capacity="14" label="L220 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R143489" capacity="18" label="L229 Multimédia A, Salle de TP, UFR SCIENCES" />
+<room id="R143490" capacity="18" label="L230 Multimédia A, Salle de TP, UFR SCIENCES" />
+<room id="R143491" capacity="18" label="L231 Multimédia A, Salle de TP, UFR SCIENCES" />
+<room id="R143492" capacity="16" label="L232 Informatique 16 A, Salle de TP, UFR SCIENCES" />
+<room id="R143493" capacity="36" label="Salle de conférences - Bât. K, Salle de TP, UFR SCIENCES" />
+<room id="R143495" capacity="30" label="Salle du conseil, Salle de TP, UFR SCIENCES" />
+<room id="R143496" capacity="171" label="Rez-de-Jardin, Amphi, UFR SCIENCES" />
+<room id="R149832" capacity="90" label="AMPHI A Sciences, Amphi, UFR SCIENCES" />
+<room id="R149833" capacity="302" label="AMPHI B Sciences, Amphi, UFR SCIENCES" />
+<room id="R149834" capacity="296" label="AMPHI D Sciences, Amphi, UFR SCIENCES" />
+<room id="R149835" capacity="182" label="AMPHI E Sciences, Amphi, UFR SCIENCES" />
+<room id="R317405" capacity="24" label="L221 Informatique 24 A, Salle de TP, UFR SCIENCES" />
+<room id="R317410" capacity="32" label="L222 Multimédia, Salle de TP, UFR SCIENCES" />
+<room id="R318392" capacity="25" label="A018 - CELFE, Salle de TP, UFR SCIENCES" />
+<room id="R324214" capacity="2" label="A203 examen 1/3 tps, Bureau, UFR SCIENCES" />
+<room id="R324217" capacity="2" label="A212 examen 1/3 tps, Bureau, UFR SCIENCES" />
+<room id="R449917" capacity="20" label="H113 Informatique, Salle de TP, UFR SCIENCES" />
+<room id="R1515824" capacity="20" label="C'004, Salle de TP, UFR SCIENCES" />
+<room id="R1583428" capacity="1" label="A108, Bureau, UFR SCIENCES" />
+</rooms>
+<teachers>
+<teacher id="T982" label="menei claudia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T887" label="leblond herve, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T6401" label="chaumont sylvie, UFR SCIENCES, Secrétariat Département et Labo Physique - SCIENCES"/>
+<teacher id="T478" label="sanchez sophie, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T490" label="chrysos michel, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T192" label="garreau catherine, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T1889" label="tudeau marie paule, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T881" label="lapied bruno, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T543" label="blin baudrier brigitte, UFR SCIENCES, Antenne Financière SCIENCES"/>
+<teacher id="T2906" label="dabos-seignon sylvie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T1131" label="peltier didier, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3235" label="satour pascale, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T5667" label="alibert benedicte, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T28" label="boudebs georges, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T934" label="nadifi alexandra, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T1430" label="thomas jean-claude, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T3303" label="pays-volard olivier, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T438" label="guichaoua dominique, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T3304" label="jean veronique, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T3014" label="ly vu benoit, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3028" label="cesbron sophie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3862" label="breton tony, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T3085" label="laffaire michel, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3438" label="sanguinet lionel, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T3851" label="picard damien, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3860" label="berruyer romain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T88" label="amghar tassadit, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T123" label="campion claire, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3536" label="barras christine, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T8129" label="brouard nathalie, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T12624" label="morille yohann, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T12799" label="raymond valerie, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T15110" label="kints sophie, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T15264" label="proia frederic, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T15443" label="celton jean-marc, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T17569" label="aymeric laetitia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T17303" label="harmange clement, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T19141" label="dutertre nicolas, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T19139" label="zigon nicolas, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T20491" label="escobar-bach mikael, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T21741" label="verkruysse veronique, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T35770" label="le moigne damien, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35611" label="raschel kilian, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35657" label="boukortt nour el imene, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35658" label="barhdadi mohammed, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35791" label="chailleux thibault, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35773" label="youssef khaled, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37581" label="ballu theo, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T37586" label="broussard louis, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T38492" label="lothode corentin, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T1933" label="lelievre eric, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T24" label="gaumer nathalie, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T29" label="boutat moha, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1820" label="barichard vincent, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T778" label="grolleau francoise, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1393" label="sourisseau sebastien, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T2655" label="tricoire-leignel helene, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T68" label="blon nadege, UFR SCIENCES, Aide à l'enseignement Dép Chimie - SCIENCES"/>
+<teacher id="T2370" label="landreau bernard, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T754" label="granger jean-michel, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T2983" label="mojtahid meryem, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T701" label="el amrani mohammed, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T2163" label="geslin emmanuelle, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T264" label="bayle lionel, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1692" label="delabaere eric, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T3863" label="chaumont loic, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T3865" label="planchet elisabeth, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3903" label="picquet virginie, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T885" label="le corronc herve, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1775" label="bonnin valerie, UFR SCIENCES, Direction de Service SCIENCES"/>
+<teacher id="T3119" label="dineau elisabeth, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3138" label="robic sylvie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T1289" label="reider igor, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1647" label="herguais sandrine, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T9964" label="garreau fabien, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T9553" label="rolland aurelia, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T15263" label="loumaigne matthieu, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1845" label="hugel julie-anne, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T36807" label="lamprier sylvain, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T19403" label="van dijk inge, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T19767" label="jamin antoine, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T22481" label="angebault cecile, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T22240" label="lamoureux clement, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T34284" label="solano federica, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34120" label="grelier cyril, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T34158" label="ligonniere sebastien, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T33881" label="guschinskaya natalia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T34022" label="azar soussana, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36092" label="joinnin hrouch virginie, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T35846" label="bou rahhal elie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T38011" label="plassais nathan, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T38381" label="bark nathalie, UFR SCIENCES, Secrétariat Département et Labo Géologie - SCIENCES"/>
+<teacher id="T37180" label="foucher garion, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T37527" label="frantz axelle, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T6033" label="da mota benoit, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1805" label="blanchard philippe, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T5880" label="metzger edouard, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T2314" label="lardeux frederic, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T2366" label="labatte jean-marc, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T859" label="jaspard emmanuel, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T2712" label="quinchard sophie, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T5601" label="canevet david, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T3861" label="boureau tristan, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1648" label="sanchez francois, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T8404" label="siegler benjamin, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T8895" label="cukier saadoun caroline, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T8802" label="vian alain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T10202" label="gohier frederic, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T11596" label="torres philippe, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T11598" label="cafasso mattia, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T14072" label="autret herve, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T14042" label="izar aude, UFR SCIENCES, Secrétariat Département et Labo Géologie - SCIENCES"/>
+<teacher id="T14081" label="anjuere mickael, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T13030" label="powell geoffrey, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T12785" label="mouret aurelia, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T13649" label="legeay marc, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T14702" label="frette willy, UFR SCIENCES, Antenne Financière SCIENCES"/>
+<teacher id="T36802" label="bessin florent, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T16473" label="josse pierre, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T16597" label="courtial julia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T18236" label="vasconcellos claudia, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T36804" label="stupfler gilles, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T20101" label="potet catherine, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T34075" label="guilhermic corentin, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T22260" label="egea maxime, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T34043" label="brou christian, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35782" label="girault morgane, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35813" label="el karout houda, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35756" label="gihaut christopher, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T35750" label="lambelin laurine, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T35845" label="abdel samad rana, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36988" label="nini brahim, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T37598" label="bernardino jerome, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T38431" label="challier valentin, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T37998" label="juret alain, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T37500" label="houssin axel, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37242" label="rodriguez vanessa, UFR SCIENCES, Secrétariat Département et Labo Mathématiques - SCIENCES"/>
+<teacher id="T1830" label="roncali jean, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T495" label="lebrec anita, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T1139" label="poupard pascal, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1397" label="stephan igor, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1664" label="besnier florence, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T1780" label="beneteau eric, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T1972" label="pawlonski catherine, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T6356" label="guitton olivier, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T6271" label="pretrot celine, UFR SCIENCES, Secrétariat de Direction SCIENCES"/>
+<teacher id="T671" label="viard sophie, UFR SCIENCES, Secrétariat Département et Labo Géologie - SCIENCES"/>
+<teacher id="T2394" label="hamiez jean-philippe, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T736" label="godet jean-luc, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T889" label="leduc nathalie, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T962" label="macherel david, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1418" label="teboul victor, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1381" label="saubion frederic, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T3306" label="girtan mihaela, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T895" label="lefevre claire, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1379" label="salle marc, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T1375" label="allain magali, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T33" label="travier sandrine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1045" label="morel alain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3025" label="brisset marie-noelle, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T3031" label="de lomenie elisabeth, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3157" label="voisine linda, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T753" label="graczyk piotr, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T2611" label="pontie maxime, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T7921" label="belin etienne, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T8656" label="briand martial, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T8346" label="blanchard emilie, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T11027" label="bernede christian, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T8853" label="garbit rodolphe, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T9935" label="monfroy eric, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T10208" label="lothier jeremy, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T9178" label="gaucher matthieu, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T12083" label="lesaint david, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T13932" label="lannois melissa, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T12782" label="batut-hourquebie christine, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T14093" label="cabanetos clement, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T17568" label="panloup fabien, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T18047" label="bastide franck, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T19134" label="ciret charles, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T21491" label="cesbron lucie, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T20494" label="goudet olivier, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T21805" label="plyuta nataliya, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34393" label="melville hayley, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35927" label="behuet corentin, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T35193" label="roulleau xavier, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T37400" label="delhaye gaetan, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37274" label="gilet valentin, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T36574" label="daviau laure, UFR SCIENCES, Relations Extérieures SCIENCES"/>
+<teacher id="T37585" label="zinoune julien bilal, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T38363" label="bournizeau alexandra, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T38420" label="amri sakhri mohamed salim, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T36686" label="colchen tatiana, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1383" label="schaub daniel, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T34" label="sahraoui bouchta, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1669" label="rousseau david, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T2759" label="salhi mohamed, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T6360" label="devred caroline, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T518" label="couez dominique, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T69" label="maynadier-gervais helene, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T823" label="hudhomme pietrick, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T302" label="esnault sylvie, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T465" label="chureau veronique, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T1944" label="genest david, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T733" label="gindre denis, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T3232" label="cassin-aucouturier sylvie, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T1041" label="montrichard francoise, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1288" label="redois fabrice, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T1133" label="pou marie-anne, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8943" label="cauchy thomas, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T12488" label="clochard thibault, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T14043" label="schweizer magali, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T14083" label="al rifai medhi, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T12789" label="segut olivier, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T21583" label="abadie cyril, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T21850" label="goujon antoine, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T20031" label="garreau bryan, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T22117" label="cadeau emmanuelle, UFR SCIENCES, Aide à l'enseignement Dép Chimie - SCIENCES"/>
+<teacher id="T34264" label="ghanem tatiana, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34136" label="baudouin emmanuelle, UFR SCIENCES, Secrétariat Département et Labo Informatique - SCIENCES"/>
+<teacher id="T34339" label="bruneau maxime, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T34170" label="makhloutah aline, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T22169" label="boivin antoine, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T33886" label="dieguez lodeiro martin, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T35811" label="billiaux chloe, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35884" label="mazeaud dominique, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T37376" label="oleksii yuliia, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37488" label="guechaichia romain, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T1037" label="monnier jean-philippe, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T948" label="loiseau stephane, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1370" label="roubtsov vladimir, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T1879" label="jorissen franciscus, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T6350" label="sebti sabrina, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T472" label="chapeau-blondeau francois, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T704" label="frere pierre, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T2391" label="fontanier christophe, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T839" label="vostrikova-jacod lioudmila, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T1388" label="simoneau philippe, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T995" label="mercier nicolas, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T1671" label="limami anis, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1922" label="howa helene, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T89" label="chaussedent stephane, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1284" label="rachet florent, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T3323" label="freuze ingrid, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3330" label="cassagne christophe, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T686" label="dias marylene, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T22" label="aubry catherine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3117" label="clerac michel, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3118" label="denance caroline, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T77" label="thomas florence, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T461" label="chesne stephane, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3122" label="guisnel remi, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3570" label="bahut muriel, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T5535" label="daniel herve, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T10201" label="barre benjamin, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T9524" label="hamama latifa, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T12951" label="pop flavia, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36842" label="cerisier amal, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T16324" label="mann etienne, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T17570" label="yalin sinan, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T18254" label="moreau eleonore, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T19165" label="humeau gregory, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T19506" label="cheret yohan, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T19888" label="chevalier wilfried, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T20615" label="lebastard elodie, UFR SCIENCES, Direction de Service SCIENCES"/>
+<teacher id="T36798" label="olivier francois, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T22532" label="simonin marie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T34344" label="ley-ngardigal bera, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T22275" label="hardoin louis, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34216" label="pawula clovis, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36183" label="puchan sanchez dario javier, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35194" label="tcherkez guillaume, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T37968" label="mouffle florence, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T36926" label="dupin nicolas, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T37276" label="goulard maud, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T37509" label="ougrige oumaima, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T37359" label="cazals clemence, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37330" label="prat isabelle, UFR SCIENCES, Secrétariat Département et Labo Informatique - SCIENCES"/>
+<teacher id="T1077" label="naie daniel, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1287" label="raso patrice, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1831" label="guillemette thomas, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T73" label="menichi luc, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T703" label="evain laurent, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T565" label="chasle christelle, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T2575" label="goeffon adrien, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T700" label="duval beatrice, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T2373" label="secondi jean, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1699" label="richer jean-michel, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T3050" label="sapoukhina natalia, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T977" label="menan bruno, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T467" label="hamon bruno, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T3018" label="aleveque olivier, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3055" label="voronine gladys, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T448" label="pagano alain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T50" label="hao jin-kao, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T843" label="jadas-hecart alain, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T2534" label="el ghayoury abdelkrim, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T3363" label="ait el mekki touria, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T8039" label="gautier christelle, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T6899" label="gentilhomme jose-sabrina, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8911" label="renaud pierre-cyril, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T9544" label="bardaine christine, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T10272" label="monnereau leo, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T12052" label="paolini lea, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T12483" label="nardelli maria pia, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T14074" label="sannier melanie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T36824" label="baudin mael, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T14775" label="mallegol patricia, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T16372" label="landes claudine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T19066" label="leitch gaelle, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T21594" label="bonnet manon, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T20827" label="ag aboubacrine assadeck mohamed alfaki, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T22021" label="lalande julie, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T34020" label="fahs rayan, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35201" label="daviray maxime, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35686" label="boitrel aurore, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35685" label="chouteau thomas, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35126" label="bakki aicha, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T35185" label="campesato jean-baptiste, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T37390" label="galloux marine, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36912" label="goncharova iryna, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37261" label="fentimen robin, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T37589" label="toro oquendo santiago, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T37621" label="walsh harriet, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T38343" label="mbokou foukmeniok serge, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T38347" label="dourmap corentin, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36469" label="david arthur, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37524" label="abdo jihad, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37343" label="roger maxime, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T1123" label="ocafrain maitena, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T897" label="leriche philippe, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T18" label="relandeau helene, UFR SCIENCES, Communication SCIENCES"/>
+<teacher id="T27" label="boisson michel, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T6368" label="dubuc benedicte, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T652" label="darniere jack-luck, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T606" label="plard catherine, UFR SCIENCES, Secrétariat de Direction SCIENCES"/>
+<teacher id="T561" label="ledoux brigitte, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T21" label="assi daniel, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T75" label="coqueret olivier, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T886" label="le paven marie-christine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3080" label="demotes-mainard sabine, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T2904" label="avarvari narcis, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3286" label="lemaire christophe, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1810" label="levillain eric, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T5510" label="clotault jeremy, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T31" label="garcia laurent, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T3148" label="mortreau eric, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3153" label="joire bernard, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T1665" label="maugenest-cuvier sebastien, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8038" label="le petitcorps alexandra, UFR SCIENCES, Secrétariat Département et Labo Mathématiques - SCIENCES"/>
+<teacher id="T10199" label="mattei cesar, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T10203" label="legoupy-gohier stephanie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T13989" label="meersseman laurent, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T14012" label="dul marie-claire, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T15179" label="barbot noemie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36848" label="bonafos mathias, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T16969" label="laudier romain, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T36811" label="lu hoang chinh, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T19417" label="rouquier philippe, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T36806" label="occelli alessandra, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T20603" label="blain emmanuelle, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T20569" label="raymond nicolas, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T20840" label="lerenard thomas, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T19601" label="bantz alexandre, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T21864" label="aligon sophie, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T22526" label="brosset charlotte, UFR SCIENCES, Relations Extérieures SCIENCES"/>
+<teacher id="T22530" label="poutier nathalie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T35893" label="cordier chiara, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35203" label="krupka oksana, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T36218" label="gapin adele, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35589" label="brouard anne, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T35843" label="bou zeid jennifer, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35698" label="guillot stephane, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T36622" label="lopes da silva moreira jose, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37660" label="bouanich andrea, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+</teachers>
+<courses>
+<course id="TMX2352U" label="Projet personnel et professionnel - P8, Licence 2 Informatique, Faculté des Sciences, Période 8">
+<part id="TMX2352U-CM" nrSessions="3" label="Projet personnel et professionnel - P8, CM">
+<classes maxHeadCount="200">
+<class id="TMX2352U-CM-1" label="Projet personnel et professionnel - P8, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2352U-TD" nrSessions="4" label="Projet personnel et professionnel - P8, TD">
+<classes maxHeadCount="40">
+<class id="TMX2352U-TD-1" parent="TMX2352U-CM-1" label="Projet personnel et professionnel - P8, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2504U" label="Programmation orientée objet 1 - P10, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 10">
+<part id="TMX2504U-TD" nrSessions="3" label="Programmation orientée objet 1 - P10, TD">
+<classes maxHeadCount="40">
+<class id="TMX2504U-TD-1" label="Programmation orientée objet 1 - P10, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2504U-TP" nrSessions="12" label="Programmation orientée objet 1 - P10, TP">
+<classes maxHeadCount="20">
+<class id="TMX2504U-TP-1" parent="TMX2504U-TD-1" label="Programmation orientée objet 1 - P10, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2404V" label="Programmation orientée objet 1 - P9, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 9">
+<part id="TMX2404V-CM" nrSessions="7" label="Programmation orientée objet 1 - P9, CM">
+<classes maxHeadCount="200">
+<class id="TMX2404V-CM-1" label="Programmation orientée objet 1 - P9, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2404V-TD" nrSessions="9" label="Programmation orientée objet 1 - P9, TD">
+<classes maxHeadCount="40">
+<class id="TMX2404V-TD-1" parent="TMX2404V-CM-1" label="Programmation orientée objet 1 - P9, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2404V-TP" nrSessions="3" label="Programmation orientée objet 1 - P9, TP">
+<classes maxHeadCount="20">
+<class id="TMX2404V-TP-1" parent="TMX2404V-TD-1" label="Programmation orientée objet 1 - P9, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2304W" label="Théorie des langages 1 - P8, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 8">
+<part id="TMX2304W-CM" nrSessions="7" label="Théorie des langages 1 - P8, CM">
+<classes maxHeadCount="200">
+<class id="TMX2304W-CM-1" label="Théorie des langages 1 - P8, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2304W-TD" nrSessions="12" label="Théorie des langages 1 - P8, TD">
+<classes maxHeadCount="40">
+<class id="TMX2304W-TD-1" parent="TMX2304W-CM-1" label="Théorie des langages 1 - P8, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2506U" label="Développement web 2 - P10, Licence 2 Informatique, Faculté des Sciences, CNU30, Période 10">
+<part id="TMX2506U-CM" nrSessions="6" label="Développement web 2 - P10, CM">
+<classes maxHeadCount="200">
+<class id="TMX2506U-CM-1" label="Développement web 2 - P10, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2506U-TP" nrSessions="7" label="Développement web 2 - P10, TP">
+<classes maxHeadCount="20">
+<class id="TMX2506U-TP-1" label="Développement web 2 - P10, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2108U" label="Bases de données 2 - P6, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 6">
+<part id="TMX2108U-CM" nrSessions="6" label="Bases de données 2 - P6, CM">
+<classes maxHeadCount="200">
+<class id="TMX2108U-CM-1" label="Bases de données 2 - P6, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2108U-TD" nrSessions="7" label="Bases de données 2 - P6, TD">
+<classes maxHeadCount="40">
+<class id="TMX2108U-TD-1" parent="TMX2108U-CM-1" label="Bases de données 2 - P6, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2405U" label="Systèmes - P9, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 9">
+<part id="TMX2405U-CM" nrSessions="9" label="Systèmes - P9, CM">
+<classes maxHeadCount="200">
+<class id="TMX2405U-CM-1" label="Systèmes - P9, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2405U-TD" nrSessions="9" label="Systèmes - P9, TD">
+<classes maxHeadCount="40">
+<class id="TMX2405U-TD-1" parent="TMX2405U-CM-1" label="Systèmes - P9, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2107U" label="Fondements de l'informatique 2 - P6, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 6">
+<part id="TMX2107U-CM" nrSessions="9" label="Fondements de l'informatique 2 - P6, CM">
+<classes maxHeadCount="200">
+<class id="TMX2107U-CM-1" label="Fondements de l'informatique 2 - P6, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2107U-TD" nrSessions="9" label="Fondements de l'informatique 2 - P6, TD">
+<classes maxHeadCount="40">
+<class id="TMX2107U-TD-1" parent="TMX2107U-CM-1" label="Fondements de l'informatique 2 - P6, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2208U" label="Bases de données 2 - P7, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 7">
+<part id="TMX2208U-CM" nrSessions="3" label="Bases de données 2 - P7, CM">
+<classes maxHeadCount="200">
+<class id="TMX2208U-CM-1" label="Bases de données 2 - P7, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2208U-TP" nrSessions="9" label="Bases de données 2 - P7, TP">
+<classes maxHeadCount="20">
+<class id="TMX2208U-TP-1" label="Bases de données 2 - P7, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2304V" label="Programmation orientée objet 1 - P8, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 8">
+<part id="TMX2304V-CM" nrSessions="13" label="Programmation orientée objet 1 - P8, CM">
+<classes maxHeadCount="200">
+<class id="TMX2304V-CM-1" label="Programmation orientée objet 1 - P8, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2304V-TD" nrSessions="6" label="Programmation orientée objet 1 - P8, TD">
+<classes maxHeadCount="40">
+<class id="TMX2304V-TD-1" parent="TMX2304V-CM-1" label="Programmation orientée objet 1 - P8, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2505U" label="Fondements de l'informatique 3 - P10, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 10">
+<part id="TMX2505U-CM" nrSessions="6" label="Fondements de l'informatique 3 - P10, CM">
+<classes maxHeadCount="200">
+<class id="TMX2505U-CM-1" label="Fondements de l'informatique 3 - P10, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2505U-TD" nrSessions="6" label="Fondements de l'informatique 3 - P10, TD">
+<classes maxHeadCount="40">
+<class id="TMX2505U-TD-1" parent="TMX2505U-CM-1" label="Fondements de l'informatique 3 - P10, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2406V" label="Développement web 2 - P9, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 9">
+<part id="TMX2406V-CM" nrSessions="6" label="Développement web 2 - P9, CM">
+<classes maxHeadCount="200">
+<class id="TMX2406V-CM-1" label="Développement web 2 - P9, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2406V-TP" nrSessions="7" label="Développement web 2 - P9, TP">
+<classes maxHeadCount="20">
+<class id="TMX2406V-TP-1" label="Développement web 2 - P9, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2451U" label="Anglais 4 - P9, Licence 2 Informatique, Faculté des Sciences, CNU11, Période 9">
+<part id="TMX2451U-TP" nrSessions="6" label="Anglais 4 - P9, TP">
+<classes maxHeadCount="20">
+<class id="TMX2451U-TP-1" label="Anglais 4 - P9, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2151U" label="Anglais 3 - P6, Licence 2 Informatique, Faculté des Sciences, CNU11, Période 6">
+<part id="TMX2151U-TP" nrSessions="6" label="Anglais 3 - P6, TP">
+<classes maxHeadCount="20">
+<class id="TMX2151U-TP-1" label="Anglais 3 - P6, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2201U" label="Algèbre linéaire - P7, Licence 2 Informatique, Faculté des Sciences, CNU25, Période 7">
+<part id="TMX2201U-CM" nrSessions="9" label="Algèbre linéaire - P7, CM">
+<classes maxHeadCount="200">
+<class id="TMX2201U-CM-1" label="Algèbre linéaire - P7, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2201U-TD" nrSessions="15" label="Algèbre linéaire - P7, TD">
+<classes maxHeadCount="40">
+<class id="TMX2201U-TD-1" parent="TMX2201U-CM-1" label="Algèbre linéaire - P7, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2251U" label="Anglais 3 - P7, Licence 2 Informatique, Faculté des Sciences, CNU11, Période 7">
+<part id="TMX2251U-TP" nrSessions="6" label="Anglais 3 - P7, TP">
+<classes maxHeadCount="20">
+<class id="TMX2251U-TP-1" label="Anglais 3 - P7, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2306V" label="Développement web 2 - P8, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 8">
+<part id="TMX2306V-CM" nrSessions="6" label="Développement web 2 - P8, CM">
+<classes maxHeadCount="200">
+<class id="TMX2306V-CM-1" label="Développement web 2 - P8, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2306V-TP" nrSessions="7" label="Développement web 2 - P8, TP">
+<classes maxHeadCount="20">
+<class id="TMX2306V-TP-1" label="Développement web 2 - P8, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2351U" label="Anglais 4 - P8, Licence 2 Informatique, Faculté des Sciences, CNU11, Période 8">
+<part id="TMX2351U-TP" nrSessions="6" label="Anglais 4 - P8, TP">
+<classes maxHeadCount="20">
+<class id="TMX2351U-TP-1" label="Anglais 4 - P8, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2301U" label="Systèmes GNU/Linux et Bash - P8, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 8">
+<part id="TMX2301U-CM" nrSessions="6" label="Systèmes GNU/Linux et Bash - P8, CM">
+<classes maxHeadCount="200">
+<class id="TMX2301U-CM-1" label="Systèmes GNU/Linux et Bash - P8, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2301U-TP" nrSessions="12" label="Systèmes GNU/Linux et Bash - P8, TP">
+<classes maxHeadCount="20">
+<class id="TMX2301U-TP-1" label="Systèmes GNU/Linux et Bash - P8, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2252U" label="Projet personnel et professionnel - P7, Licence 2 Informatique, Faculté des Sciences, Période 7">
+<part id="TMX2252U-CM" nrSessions="6" label="Projet personnel et professionnel - P7, CM">
+<classes maxHeadCount="200">
+<class id="TMX2252U-CM-1" label="Projet personnel et professionnel - P7, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2207U" label="Fondements de l'informatique 2 - P7, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 7">
+<part id="TMX2207U-CM" nrSessions="9" label="Fondements de l'informatique 2 - P7, CM">
+<classes maxHeadCount="200">
+<class id="TMX2207U-CM-1" label="Fondements de l'informatique 2 - P7, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2207U-TD" nrSessions="9" label="Fondements de l'informatique 2 - P7, TD">
+<classes maxHeadCount="40">
+<class id="TMX2207U-TD-1" parent="TMX2207U-CM-1" label="Fondements de l'informatique 2 - P7, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2206U" label="Algorithmique 3 - P7, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 7">
+<part id="TMX2206U-CM" nrSessions="6" label="Algorithmique 3 - P7, CM">
+<classes maxHeadCount="200">
+<class id="TMX2206U-CM-1" label="Algorithmique 3 - P7, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2206U-TD" nrSessions="6" label="Algorithmique 3 - P7, TD">
+<classes maxHeadCount="40">
+<class id="TMX2206U-TD-1" parent="TMX2206U-CM-1" label="Algorithmique 3 - P7, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2206U-TP" nrSessions="9" label="Algorithmique 3 - P7, TP">
+<classes maxHeadCount="20">
+<class id="TMX2206U-TP-1" parent="TMX2206U-TD-1" label="Algorithmique 3 - P7, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2452U" label="Projet personnel et professionnel - P9, Licence 2 Informatique, Faculté des Sciences, Période 9">
+<part id="TMX2452U-TP" nrSessions="3" label="Projet personnel et professionnel - P9, TP">
+<classes maxHeadCount="20">
+<class id="TMX2452U-TP-1" label="Projet personnel et professionnel - P9, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2106V" label="Algorithmique 3 - P6, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 6">
+<part id="TMX2106V-CM" nrSessions="6" label="Algorithmique 3 - P6, CM">
+<classes maxHeadCount="200">
+<class id="TMX2106V-CM-1" label="Algorithmique 3 - P6, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2106V-TD" nrSessions="6" label="Algorithmique 3 - P6, TD">
+<classes maxHeadCount="40">
+<class id="TMX2106V-TD-1" parent="TMX2106V-CM-1" label="Algorithmique 3 - P6, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2106V-TP" nrSessions="9" label="Algorithmique 3 - P6, TP">
+<classes maxHeadCount="20">
+<class id="TMX2106V-TP-1" parent="TMX2106V-TD-1" label="Algorithmique 3 - P6, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2152U" label="Projet personnel et professionnel - P6, Licence 2 Informatique, Faculté des Sciences, Période 6">
+<part id="TMX2152U-TD" nrSessions="6" label="Projet personnel et professionnel - P6, TD">
+<classes maxHeadCount="40">
+<class id="TMX2152U-TD-1" label="Projet personnel et professionnel - P6, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2101V" label="Algèbre linéaire - P6, Licence 2 Informatique, Faculté des Sciences, CNU25, Période 6">
+<part id="TMX2101V-CM" nrSessions="9" label="Algèbre linéaire - P6, CM">
+<classes maxHeadCount="200">
+<class id="TMX2101V-CM-1" label="Algèbre linéaire - P6, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2101V-TD" nrSessions="12" label="Algèbre linéaire - P6, TD">
+<classes maxHeadCount="40">
+<class id="TMX2101V-TD-1" parent="TMX2101V-CM-1" label="Algèbre linéaire - P6, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX2404U" label="Théorie des langages 1 - P9, Licence 2 Informatique, Faculté des Sciences, CNU27, Période 9">
+<part id="TMX2404U-CM" nrSessions="6" label="Théorie des langages 1 - P9, CM">
+<classes maxHeadCount="200">
+<class id="TMX2404U-CM-1" label="Théorie des langages 1 - P9, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143458" />
+  <room refId="R143459" />
+  <room refId="R143460" />
+  <room refId="R143461" />
+  <room refId="R143462" />
+  <room refId="R143463" />
+  <room refId="R143496" />
+  <room refId="R149832" />
+  <room refId="R149833" />
+  <room refId="R149834" />
+  <room refId="R149835" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2404U-TD" nrSessions="9" label="Théorie des langages 1 - P9, TD">
+<classes maxHeadCount="40">
+<class id="TMX2404U-TD-1" parent="TMX2404U-CM-1" label="Théorie des langages 1 - P9, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143403" />
+  <room refId="R143404" />
+  <room refId="R143407" />
+  <room refId="R143446" />
+  <room refId="R143447" />
+  <room refId="R143451" />
+  <room refId="R143452" />
+  <room refId="R143453" />
+  <room refId="R143454" />
+  <room refId="R143455" />
+  <room refId="R143464" />
+  <room refId="R143465" />
+  <room refId="R143466" />
+  <room refId="R143467" />
+  <room refId="R143468" />
+  <room refId="R143469" />
+  <room refId="R143471" />
+  <room refId="R143474" />
+  <room refId="R143475" />
+  <room refId="R143476" />
+  <room refId="R143477" />
+  <room refId="R143478" />
+  <room refId="R143483" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX2404U-TP" nrSessions="4" label="Théorie des langages 1 - P9, TP">
+<classes maxHeadCount="20">
+<class id="TMX2404U-TP-1" parent="TMX2404U-TD-1" label="Théorie des langages 1 - P9, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+  <room refId="R143399" />
+  <room refId="R143400" />
+  <room refId="R143401" />
+  <room refId="R143402" />
+  <room refId="R143405" />
+  <room refId="R143406" />
+  <room refId="R143434" />
+  <room refId="R143435" />
+  <room refId="R143436" />
+  <room refId="R143437" />
+  <room refId="R143438" />
+  <room refId="R143439" />
+  <room refId="R143440" />
+  <room refId="R143441" />
+  <room refId="R143442" />
+  <room refId="R143443" />
+  <room refId="R143445" />
+  <room refId="R143450" />
+  <room refId="R143456" />
+  <room refId="R143470" />
+  <room refId="R143479" />
+  <room refId="R143480" />
+  <room refId="R143481" />
+  <room refId="R143482" />
+  <room refId="R143484" />
+  <room refId="R143485" />
+  <room refId="R143487" />
+  <room refId="R143488" />
+  <room refId="R143489" />
+  <room refId="R143490" />
+  <room refId="R143491" />
+  <room refId="R143492" />
+  <room refId="R143493" />
+  <room refId="R143495" />
+  <room refId="R317405" />
+  <room refId="R317410" />
+  <room refId="R318392" />
+  <room refId="R449917" />
+  <room refId="R1515824" />
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+</courses>
+<students>
+<student id="S1" label="Student2">
+</student>
+</students>
+<solution>
+<groups>
+<group id="TL2IN11-G1">
+<students>
+<student refId="S2"/>
+</students>
+<classes>
+<class refId="TMX2352U-CM-1"/>
+<class refId="TMX2352U-TD-1"/>
+<class refId="TMX2504U-TD-1"/>
+<class refId="TMX2504U-TP-1"/>
+<class refId="TMX2404V-CM-1"/>
+<class refId="TMX2404V-TD-1"/>
+<class refId="TMX2404V-TP-1"/>
+<class refId="TMX2304W-CM-1"/>
+<class refId="TMX2304W-TD-1"/>
+<class refId="TMX2506U-CM-1"/>
+<class refId="TMX2506U-TP-1"/>
+<class refId="TMX2108U-CM-1"/>
+<class refId="TMX2108U-TD-1"/>
+<class refId="TMX2405U-CM-1"/>
+<class refId="TMX2405U-TD-1"/>
+<class refId="TMX2107U-CM-1"/>
+<class refId="TMX2107U-TD-1"/>
+<class refId="TMX2208U-CM-1"/>
+<class refId="TMX2208U-TP-1"/>
+<class refId="TMX2304V-CM-1"/>
+<class refId="TMX2304V-TD-1"/>
+<class refId="TMX2505U-CM-1"/>
+<class refId="TMX2505U-TD-1"/>
+<class refId="TMX2406V-CM-1"/>
+<class refId="TMX2406V-TP-1"/>
+<class refId="TMX2451U-TP-1"/>
+<class refId="TMX2151U-TP-1"/>
+<class refId="TMX2201U-CM-1"/>
+<class refId="TMX2201U-TD-1"/>
+<class refId="TMX2251U-TP-1"/>
+<class refId="TMX2306V-CM-1"/>
+<class refId="TMX2306V-TP-1"/>
+<class refId="TMX2351U-TP-1"/>
+<class refId="TMX2301U-CM-1"/>
+<class refId="TMX2301U-TP-1"/>
+<class refId="TMX2252U-CM-1"/>
+<class refId="TMX2207U-CM-1"/>
+<class refId="TMX2207U-TD-1"/>
+<class refId="TMX2206U-CM-1"/>
+<class refId="TMX2206U-TD-1"/>
+<class refId="TMX2206U-TP-1"/>
+<class refId="TMX2452U-TP-1"/>
+<class refId="TMX2106V-CM-1"/>
+<class refId="TMX2106V-TD-1"/>
+<class refId="TMX2106V-TP-1"/>
+<class refId="TMX2152U-TD-1"/>
+<class refId="TMX2101V-CM-1"/>
+<class refId="TMX2101V-TD-1"/>
+<class refId="TMX2404U-CM-1"/>
+<class refId="TMX2404U-TD-1"/>
+<class refId="TMX2404U-TP-1"/>
+</classes>
+</group>
+<group id="TL2IN11-G2">
+<classes>
+<class refId="TMX2352U-CM-1"/>
+<class refId="TMX2352U-TD-1"/>
+<class refId="TMX2504U-TD-1"/>
+<class refId="TMX2404V-CM-1"/>
+<class refId="TMX2404V-TD-1"/>
+<class refId="TMX2304W-CM-1"/>
+<class refId="TMX2304W-TD-1"/>
+<class refId="TMX2506U-CM-1"/>
+<class refId="TMX2108U-CM-1"/>
+<class refId="TMX2108U-TD-1"/>
+<class refId="TMX2405U-CM-1"/>
+<class refId="TMX2405U-TD-1"/>
+<class refId="TMX2107U-CM-1"/>
+<class refId="TMX2107U-TD-1"/>
+<class refId="TMX2208U-CM-1"/>
+<class refId="TMX2304V-CM-1"/>
+<class refId="TMX2304V-TD-1"/>
+<class refId="TMX2505U-CM-1"/>
+<class refId="TMX2505U-TD-1"/>
+<class refId="TMX2406V-CM-1"/>
+<class refId="TMX2201U-CM-1"/>
+<class refId="TMX2201U-TD-1"/>
+<class refId="TMX2306V-CM-1"/>
+<class refId="TMX2301U-CM-1"/>
+<class refId="TMX2252U-CM-1"/>
+<class refId="TMX2207U-CM-1"/>
+<class refId="TMX2207U-TD-1"/>
+<class refId="TMX2206U-CM-1"/>
+<class refId="TMX2206U-TD-1"/>
+<class refId="TMX2106V-CM-1"/>
+<class refId="TMX2106V-TD-1"/>
+<class refId="TMX2152U-TD-1"/>
+<class refId="TMX2101V-CM-1"/>
+<class refId="TMX2101V-TD-1"/>
+<class refId="TMX2404U-CM-1"/>
+<class refId="TMX2404U-TD-1"/>
+</classes>
+</group>
+</groups>
+</solution>
+</timetabling>

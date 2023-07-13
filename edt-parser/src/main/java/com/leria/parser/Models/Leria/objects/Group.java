@@ -60,7 +60,7 @@ public class Group {
         for (String student : students) {
           writer.write("<student refId=\"" + student + "\"/>\n");
         }
-
+        writer.write("</students>\n");
       }
       if (!classes.isEmpty()) {
         writer.write("<classes>\n");

@@ -1,8 +1,12 @@
 package com.leria.parser.Parser;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import com.google.gson.Gson;
 import com.leria.parser.Api.API;
@@ -39,9 +43,32 @@ public class CourseParser {
   public static final int MAX_HEAD_COUNT_TD = 40;
   public static final int MAX_HEAD_COUNT_TP = 20;
 
+  public List<UACourse> uacourses;
+  
   private CourseParser() {
   }
 
+  public static final String[] FILTER_ETAPE = new String[] {"^TM.*","^TD.*"};	
+  public static final String[] FILTER_LIB_ETAPE = new String[] {".*Parcours santé.*",".*parcours santé.*",".*MI Partenaire.*","Mise à niveau.*"};	//".*santé /.*"
+  
+  public static boolean valideCodeEtape(String id) {
+	  for(int i =0; i < FILTER_ETAPE.length ;i++) {
+		  if(Pattern.matches(FILTER_ETAPE[i], id)) {
+			  return false;
+		  }
+	  }
+	  return true;
+  }//FinMethod
+  
+  public static boolean valideLibEtape(String id) {
+	  for(int i =0; i < FILTER_LIB_ETAPE.length ;i++) {
+		  if(Pattern.matches(FILTER_LIB_ETAPE[i], id)) {
+			  return false;
+		  }
+	  }
+	  return true;
+  }//FinMethod
+  
   public static ResultCourseParser parseCourses(ConfigurationFile config, UACalendar calendar, List<Room> rooms)
       throws Exception {
     List<Course> etapes = new ArrayList<>();
@@ -57,6 +84,23 @@ public class CourseParser {
     } catch (NullPointerException e) {
       throw new Exception("The Etape API returned a null response, check that the server is up and running");
     }
+    
+    //WriteEtape into file
+    String filename_Basetape = "baseEtape_"+config.getYear()+".txt";
+    try (FileWriter fileWriter = new FileWriter(filename_Basetape)) {
+        for (BaseEtape baseEtape : baseEtapes) {
+        	if(valideCodeEtape(baseEtape.getCodeEtape()) & valideLibEtape(baseEtape.getLibEtape()) ) {
+            	String  f = "<etape id=\""+baseEtape.getCodeEtape()+"\" label=\""+baseEtape.getLibEtape()+"\" periodes=\"\" effectif=\""+1 +"\" />";
+                fileWriter.write( f+ "\n");
+        	}
+
+        }
+        System.out.println("baseEtape has been written to the "+filename_Basetape);
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+    
+    
     try {
       // Parse each etape to get their courses and add them to the list of Courses
       for (int i = 0; i < baseEtapes.length; i++) {
@@ -77,11 +121,12 @@ public class CourseParser {
             solution.addGroup(g);
           });
 
-          etapes.addAll(etapeToCourses(etape, config, calendar, solution, rooms));
+          etapes.addAll(etapeToCourses(etape, config, calendar, solution, rooms,etapes));
+          
         } else {
-          System.out
+          /*System.out
               .println("<WARNING> The Etape " + baseEtape.getLibEtape() + " (" + baseEtape.getCodeEtape()
-                  + ") was ignored because it was not selected");
+                  + ") was ignored because it was not selected");*/
         }
       }
       System.out.println("Parsed " + baseEtapes.length + " etapes            \n");
@@ -90,12 +135,22 @@ public class CourseParser {
       throw new Exception("Error while parsing etapes : " + e.getMessage());
     }
   }
-
+  public boolean filter_maquette(UACourse c) {
+	  if(Pattern.matches("E0.*", c.getNoElement())){return false;}else{return true;}
+  }//FinMethod
   private static UACourse[] parseEtapeCourses(String codeEtape, String year) {
     try {
       HttpResponse<String> response = API.requestMaquette(codeEtape, year);
       Gson gson = new Gson();
-      return gson.fromJson(response.body(), UACourse[].class);
+      //return gson.fromJson(response.body(), UACourse[].class);
+      UACourse[] tmp = gson.fromJson(response.body(), UACourse[].class);
+      //Filter for course with uel or option who don't need schedule
+      tmp = Arrays.stream(tmp).
+    		  filter(c->!Pattern.matches("EO.*", c.getNoElement())).
+    		  filter(c->!Pattern.matches("[0-9]*UL.*", c.getNoElement())).
+    		  toArray(UACourse[]::new);
+      System.out.println("nr Course = "+tmp.length);
+      return tmp;
     } catch (Exception e) {
       System.out.println("Error while parsing etape " + codeEtape + " : " + e.getMessage());
       return new UACourse[0];
@@ -104,7 +159,7 @@ public class CourseParser {
 
   private static List<Course> etapeToCourses(Etape etape, ConfigurationFile config, UACalendar calendar,
       Solution solution,
-      List<Room> rooms) {
+      List<Room> rooms,List<Course> etapes) {
     // Get etape calendar
     EtapeCalendar etapeCalendar = calendar.getEtapeCalendar(etape.getCodeEtape());
     if (etapeCalendar == null) {
@@ -124,9 +179,97 @@ public class CourseParser {
                   + ") was ignored because its period was not selected");
         }
       }
+      else {
+    	  if (config.getSelectEtape(course.getCodeEtape()).isPeriodeSelected(course.getCodePeriode())) {
+              //courses.add(uaCourseToCourse(etape, config, course, calendar, etapeCalendar, solution, rooms));
+    		  Course k =  etapes.stream().filter(u->u.getId().getId().equals(course.getNoElement())).findFirst().get();
+    		  //courses.add(k);
+            // uaCourseToCourse(etape, config, course, calendar, etapeCalendar, solution, rooms);
+    		  addToCourseEtape(etape,k,course,config,solution);
+
+    	  	System.out.println(k.getLabel().getValue());
+    	  }
+    	  else {
+              System.out.println(
+                  "<WARNING> The Course " + course.getLibElement() + " (" + course.getNoElement()
+                      + ") was ignored because its period was not selected");
+            }
+      }
     }
+
     return courses;
-  }
+  }//FinMethod
+  
+  private static void addClassesIntoCourse(Etape etape,Part part,UACourse uaCourse,Solution solution) {
+	  
+	  if(Pattern.matches(".*TD.*", part.getLabel().getValue())) {
+		  Classes classes = new Classes(new ArrayList<Class>(), MAX_HEAD_COUNT_TD);
+		  int nrOldClasses = part.getClasses().getClasses().size();
+		    for (int i = 1; i <= etape.getRepartition().getNrClassesTD(); i++) {
+			      Class c = new Class(part.getId() + "-" + (i+nrOldClasses) , part.getLabel() + "-" +(i+nrOldClasses));
+			      classes.addClass(c);
+			      etape.getRepartition().getGroupsTPByParentTD(i)
+			          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getNumeroGroupe())
+			              .addClass(c.getId().getId()));
+			    }
+		    part.getClasses().getClasses().addAll(classes.getClasses());
+	  }
+	  else if(Pattern.matches(".*CMTD.*", part.getLabel().getValue())) {
+		  Classes classes = new Classes(new ArrayList<Class>(), MAX_HEAD_COUNT_TD);
+		  int nrOldClasses = part.getClasses().getClasses().size();
+		    for (int i = 1; i <= etape.getRepartition().getNrClassesTD(); i++) {
+		      String parent = uaCourse.getNoElement() + "-CM-" + etape.getRepartition().getGroupTD(i).getParent();
+		      Class c;
+		      if (UniqueId.exists(parent)) {
+		        c = new Class(part.getId() + "-" + (i+nrOldClasses), parent, part.getLabel() + "-" +( i+nrOldClasses));
+		      } else {
+		        c = new Class(part.getId() + "-" + (i+nrOldClasses), part.getLabel() + "-" + (i+nrOldClasses));
+		      }
+		      classes.addClass(c);
+		      etape.getRepartition().getGroupsTPByParentTD(i)
+		          .forEach(g -> solution.getGroupById(etape.getCodeEtape() + "-G" + g.getNumeroGroupe())
+		              .addClass(c.getId().getId()));
+		    }
+		    part.getClasses().getClasses().addAll(classes.getClasses());
+	  }
+	  else if(Pattern.matches(".*TP.*", part.getLabel().getValue())) {
+		  Classes classes = new Classes(new ArrayList<Class>(), MAX_HEAD_COUNT_TP);
+		    for (int i = 1; i <= etape.getRepartition().getNrClassesTP(); i++) {
+		      String parent = uaCourse.getNoElement() + "-TD-" + etape.getRepartition().getGroupTP(i).getParent();
+		      Class c;
+		      if (UniqueId.exists(parent) && !etape.getRepartition().getGroupTP(i).has2Parents()) {
+		        c = new Class(part.getId() + "-" + i, parent, part.getLabel() + "-" + i);
+		      } else {
+		        c = new Class(part.getId() + "-" + i, part.getLabel() + "-" + i);
+		      }
+		      classes.addClass(c);
+		      solution.getGroupById(etape.getCodeEtape() + "-G" + i)
+		          .addClass(c.getId().getId());
+		    }
+		    part.getClasses().getClasses().addAll(classes.getClasses());
+	  }
+	  else {
+		  
+	  }
+	  
+
+	   
+  }//FinMethod
+  
+  private static void addToCourseEtape(Etape etape, Course course, UACourse uaCourse, ConfigurationFile config, Solution solution) {
+	  for(Part part : course.getParts() ) {
+		  System.out.println(part.getLabel().getValue());
+		  if(Pattern.matches(".*CMTD.*", part.getLabel().getValue())) {
+			  //addClassesIntoCourse(etape,part,uaCourse,solution);
+		  }
+		  if(!Pattern.matches(".*CM.*", part.getLabel().getValue())) {
+			  System.out.println("CM");
+			  addClassesIntoCourse(etape,part,uaCourse,solution);
+		  }
+
+	  }
+	 
+  }//FinMethod
 
   private static Course uaCourseToCourse(Etape etape, ConfigurationFile config, UACourse uaCourse, UACalendar calendar,
       EtapeCalendar etapeCalendar, Solution solution,
@@ -205,8 +348,7 @@ public class CourseParser {
     part.setAllowedRooms(new AllowedRooms(roomsIds, new IntegerRangeMin("1-")));
 
     // Create allowed teachers
-    List<ServiceSheet> serviceSheets = ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),
-        "CM");
+    List<ServiceSheet> serviceSheets = new ArrayList<>();//ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),"CM");
     List<AllowedTeacher> allowedTeacherList = new ArrayList<>();
     for (ServiceSheet serviceSheet : serviceSheets) {
       float tempNrSessions = serviceSheet.getHours() / uaCourse.getSessionLength();
@@ -261,8 +403,7 @@ public class CourseParser {
     part.setAllowedRooms(new AllowedRooms(roomsIds, new IntegerRangeMin("1-")));
 
     // Create allowed teachers
-    List<ServiceSheet> serviceSheets = ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),
-        "TD");
+    List<ServiceSheet> serviceSheets = new ArrayList<>();//ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),"TD");
     List<AllowedTeacher> allowedTeacherList = new ArrayList<>();
     for (ServiceSheet serviceSheet : serviceSheets) {
       float tempNrSessions = serviceSheet.getHours() / uaCourse.getSessionLength();
@@ -315,8 +456,7 @@ public class CourseParser {
     part.setAllowedRooms(new AllowedRooms(roomsIds, new IntegerRangeMin("1-")));
 
     // Create allowed teachers
-    List<ServiceSheet> serviceSheets = ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),
-        "TP");
+    List<ServiceSheet> serviceSheets = new ArrayList<>();//ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),"TP");
     List<AllowedTeacher> allowedTeacherList = new ArrayList<>();
     for (ServiceSheet serviceSheet : serviceSheets) {
       float tempNrSessions = serviceSheet.getHours() / uaCourse.getSessionLength();
@@ -370,8 +510,7 @@ public class CourseParser {
     part.setAllowedRooms(new AllowedRooms(roomsIds, new IntegerRangeMin("1-")));
 
     // Create allowed teachers
-    List<ServiceSheet> serviceSheets = ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),
-        "CMTD");
+    List<ServiceSheet> serviceSheets = new ArrayList<>();//ServiceSheetParser.parseServiceSheet(config.getYear(), uaCourse.getNoElement(),"CMTD");
     List<AllowedTeacher> allowedTeacherList = new ArrayList<>();
     for (ServiceSheet serviceSheet : serviceSheets) {
       float tempNrSessions = serviceSheet.getHours() * 60 / uaCourse.getSessionLength();

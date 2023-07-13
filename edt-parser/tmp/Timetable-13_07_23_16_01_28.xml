@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timetabling xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd" name="Timetable" nrWeeks="0" nrDaysPerWeek="5" nrSlotsPerDay="1440">
+<teachers>
+<teacher id="T887" label="leblond herve, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T6401" label="chaumont sylvie, UFR SCIENCES, Secrétariat Département et Labo Physique - SCIENCES"/>
+<teacher id="T478" label="sanchez sophie, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T490" label="chrysos michel, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T192" label="garreau catherine, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T1889" label="tudeau marie paule, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T881" label="lapied bruno, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T543" label="blin baudrier brigitte, UFR SCIENCES, Antenne Financière SCIENCES"/>
+<teacher id="T2906" label="dabos-seignon sylvie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3235" label="satour pascale, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T5667" label="alibert benedicte, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T28" label="boudebs georges, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T934" label="nadifi alexandra, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T1430" label="thomas jean-claude, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T3303" label="pays-volard olivier, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3306" label="girtan mihaela, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T438" label="guichaoua dominique, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T3304" label="jean veronique, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T3014" label="ly vu benoit, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3028" label="cesbron sophie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T1692" label="delabaere eric, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T3085" label="laffaire michel, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3438" label="sanguinet lionel, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T3863" label="chaumont loic, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1648" label="sanchez francois, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T3860" label="berruyer romain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T123" label="campion claire, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3536" label="barras christine, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T8129" label="brouard nathalie, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T12624" label="morille yohann, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T11598" label="cafasso mattia, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T12799" label="raymond valerie, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T15110" label="kints sophie, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T15264" label="proia frederic, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T15443" label="celton jean-marc, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T17569" label="aymeric laetitia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T36806" label="occelli alessandra, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T19134" label="ciret charles, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T20491" label="escobar-bach mikael, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T21741" label="verkruysse veronique, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T35770" label="le moigne damien, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35611" label="raschel kilian, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35791" label="chailleux thibault, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35845" label="abdel samad rana, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37274" label="gilet valentin, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T37376" label="oleksii yuliia, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36926" label="dupin nicolas, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T38492" label="lothode corentin, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T37527" label="frantz axelle, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T37660" label="bouanich andrea, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T37343" label="roger maxime, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37359" label="cazals clemence, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T1933" label="lelievre eric, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T24" label="gaumer nathalie, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T29" label="boutat moha, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1820" label="barichard vincent, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T778" label="grolleau francoise, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1393" label="sourisseau sebastien, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T2655" label="tricoire-leignel helene, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T68" label="blon nadege, UFR SCIENCES, Aide à l'enseignement Dép Chimie - SCIENCES"/>
+<teacher id="T2370" label="landreau bernard, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T962" label="macherel david, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T754" label="granger jean-michel, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T1379" label="salle marc, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T2983" label="mojtahid meryem, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T701" label="el amrani mohammed, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T2163" label="geslin emmanuelle, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T264" label="bayle lionel, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T3903" label="picquet virginie, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T885" label="le corronc herve, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1775" label="bonnin valerie, UFR SCIENCES, Direction de Service SCIENCES"/>
+<teacher id="T3119" label="dineau elisabeth, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3138" label="robic sylvie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T753" label="graczyk piotr, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1289" label="reider igor, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1647" label="herguais sandrine, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T6899" label="gentilhomme jose-sabrina, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T10201" label="barre benjamin, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T9964" label="garreau fabien, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T9553" label="rolland aurelia, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T13649" label="legeay marc, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T36824" label="baudin mael, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T36802" label="bessin florent, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T15263" label="loumaigne matthieu, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1845" label="hugel julie-anne, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T36807" label="lamprier sylvain, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T19767" label="jamin antoine, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T22481" label="angebault cecile, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T34120" label="grelier cyril, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T34344" label="ley-ngardigal bera, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36092" label="joinnin hrouch virginie, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T35846" label="bou rahhal elie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37400" label="delhaye gaetan, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T38011" label="plassais nathan, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T38381" label="bark nathalie, UFR SCIENCES, Secrétariat Département et Labo Géologie - SCIENCES"/>
+<teacher id="T37180" label="foucher garion, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T6033" label="da mota benoit, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T982" label="menei claudia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1805" label="blanchard philippe, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T5880" label="metzger edouard, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T2314" label="lardeux frederic, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T2366" label="labatte jean-marc, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T6350" label="sebti sabrina, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T859" label="jaspard emmanuel, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T2712" label="quinchard sophie, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T5601" label="canevet david, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T5510" label="clotault jeremy, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3861" label="boureau tristan, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T448" label="pagano alain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3865" label="planchet elisabeth, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8404" label="siegler benjamin, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T8895" label="cukier saadoun caroline, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T8802" label="vian alain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T11596" label="torres philippe, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T13989" label="meersseman laurent, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T14072" label="autret herve, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T14042" label="izar aude, UFR SCIENCES, Secrétariat Département et Labo Géologie - SCIENCES"/>
+<teacher id="T14043" label="schweizer magali, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T14081" label="anjuere mickael, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T13030" label="powell geoffrey, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T12785" label="mouret aurelia, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T14702" label="frette willy, UFR SCIENCES, Antenne Financière SCIENCES"/>
+<teacher id="T16473" label="josse pierre, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T18236" label="vasconcellos claudia, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T19066" label="leitch gaelle, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T20569" label="raymond nicolas, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T20101" label="potet catherine, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T33881" label="guschinskaya natalia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T22169" label="boivin antoine, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T34043" label="brou christian, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35782" label="girault morgane, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35750" label="lambelin laurine, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T35185" label="campesato jean-baptiste, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T37586" label="broussard louis, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T38431" label="challier valentin, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T38347" label="dourmap corentin, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T37998" label="juret alain, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T37500" label="houssin axel, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37242" label="rodriguez vanessa, UFR SCIENCES, Secrétariat Département et Labo Mathématiques - SCIENCES"/>
+<teacher id="T1830" label="roncali jean, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T495" label="lebrec anita, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T1139" label="poupard pascal, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1397" label="stephan igor, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1664" label="besnier florence, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T1780" label="beneteau eric, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T1972" label="pawlonski catherine, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T6356" label="guitton olivier, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T6271" label="pretrot celine, UFR SCIENCES, Secrétariat de Direction SCIENCES"/>
+<teacher id="T671" label="viard sophie, UFR SCIENCES, Secrétariat Département et Labo Géologie - SCIENCES"/>
+<teacher id="T2394" label="hamiez jean-philippe, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T700" label="duval beatrice, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T736" label="godet jean-luc, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T1131" label="peltier didier, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T889" label="leduc nathalie, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1418" label="teboul victor, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1381" label="saubion frederic, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T895" label="lefevre claire, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1375" label="allain magali, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T33" label="travier sandrine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1045" label="morel alain, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3025" label="brisset marie-noelle, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T3031" label="de lomenie elisabeth, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3157" label="voisine linda, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T2611" label="pontie maxime, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T7921" label="belin etienne, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T8656" label="briand martial, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T8346" label="blanchard emilie, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T11027" label="bernede christian, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T8853" label="garbit rodolphe, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T9935" label="monfroy eric, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T9178" label="gaucher matthieu, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T12052" label="paolini lea, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T12083" label="lesaint david, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T13932" label="lannois melissa, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T12782" label="batut-hourquebie christine, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T14093" label="cabanetos clement, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T17568" label="panloup fabien, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T18047" label="bastide franck, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T19403" label="van dijk inge, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T36804" label="stupfler gilles, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T21491" label="cesbron lucie, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T21583" label="abadie cyril, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T20494" label="goudet olivier, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T21805" label="plyuta nataliya, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34393" label="melville hayley, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34022" label="azar soussana, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35813" label="el karout houda, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35927" label="behuet corentin, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T35193" label="roulleau xavier, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T35843" label="bou zeid jennifer, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37390" label="galloux marine, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36574" label="daviau laure, UFR SCIENCES, Relations Extérieures SCIENCES"/>
+<teacher id="T38363" label="bournizeau alexandra, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T38420" label="amri sakhri mohamed salim, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T1383" label="schaub daniel, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T27" label="boisson michel, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T34" label="sahraoui bouchta, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1669" label="rousseau david, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T2759" label="salhi mohamed, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T518" label="couez dominique, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T69" label="maynadier-gervais helene, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T823" label="hudhomme pietrick, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T302" label="esnault sylvie, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T465" label="chureau veronique, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T1944" label="genest david, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T733" label="gindre denis, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T3232" label="cassin-aucouturier sylvie, UFR SCIENCES, Secrétariat Département et Labo Biologie - SCIENCES"/>
+<teacher id="T88" label="amghar tassadit, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1041" label="montrichard francoise, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1133" label="pou marie-anne, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8943" label="cauchy thomas, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T10202" label="gohier frederic, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T12488" label="clochard thibault, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T14083" label="al rifai medhi, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T21850" label="goujon antoine, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T20031" label="garreau bryan, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T22117" label="cadeau emmanuelle, UFR SCIENCES, Aide à l'enseignement Dép Chimie - SCIENCES"/>
+<teacher id="T34284" label="solano federica, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34136" label="baudouin emmanuelle, UFR SCIENCES, Secrétariat Département et Labo Informatique - SCIENCES"/>
+<teacher id="T22260" label="egea maxime, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T33886" label="dieguez lodeiro martin, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T35657" label="boukortt nour el imene, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35658" label="barhdadi mohammed, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35884" label="mazeaud dominique, UFR SCIENCES, Pôle Master SCIENCES"/>
+<teacher id="T35203" label="krupka oksana, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T37488" label="guechaichia romain, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T36686" label="colchen tatiana, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1037" label="monnier jean-philippe, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T948" label="loiseau stephane, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T1370" label="roubtsov vladimir, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T472" label="chapeau-blondeau francois, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T2391" label="fontanier christophe, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T839" label="vostrikova-jacod lioudmila, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T1388" label="simoneau philippe, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T995" label="mercier nicolas, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T1671" label="limami anis, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1922" label="howa helene, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T89" label="chaussedent stephane, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1284" label="rachet florent, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T3323" label="freuze ingrid, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3330" label="cassagne christophe, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T686" label="dias marylene, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T22" label="aubry catherine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3851" label="picard damien, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3117" label="clerac michel, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3118" label="denance caroline, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T77" label="thomas florence, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T461" label="chesne stephane, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3122" label="guisnel remi, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3570" label="bahut muriel, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T5535" label="daniel herve, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T10208" label="lothier jeremy, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T9524" label="hamama latifa, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T12789" label="segut olivier, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T12951" label="pop flavia, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36842" label="cerisier amal, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T16324" label="mann etienne, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T17570" label="yalin sinan, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T18254" label="moreau eleonore, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T19165" label="humeau gregory, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T19506" label="cheret yohan, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T20615" label="lebastard elodie, UFR SCIENCES, Direction de Service SCIENCES"/>
+<teacher id="T36798" label="olivier francois, UFR SCIENCES, Recherche Dép Informati. - SCIENCES"/>
+<teacher id="T22532" label="simonin marie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T22240" label="lamoureux clement, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T34264" label="ghanem tatiana, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T34170" label="makhloutah aline, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T22275" label="hardoin louis, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36183" label="puchan sanchez dario javier, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35201" label="daviray maxime, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T35194" label="tcherkez guillaume, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T37261" label="fentimen robin, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T37589" label="toro oquendo santiago, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T37581" label="ballu theo, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T37585" label="zinoune julien bilal, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T37621" label="walsh harriet, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T37968" label="mouffle florence, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T37276" label="goulard maud, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T37330" label="prat isabelle, UFR SCIENCES, Secrétariat Département et Labo Informatique - SCIENCES"/>
+<teacher id="T1077" label="naie daniel, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T1287" label="raso patrice, UFR SCIENCES, DEP ENS SCIENCES Physique"/>
+<teacher id="T1831" label="guillemette thomas, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1879" label="jorissen franciscus, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T73" label="menichi luc, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T703" label="evain laurent, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T565" label="chasle christelle, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T2575" label="goeffon adrien, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T2373" label="secondi jean, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1699" label="richer jean-michel, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T3050" label="sapoukhina natalia, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T977" label="menan bruno, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T467" label="hamon bruno, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T3018" label="aleveque olivier, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3055" label="voronine gladys, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3862" label="breton tony, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T50" label="hao jin-kao, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T843" label="jadas-hecart alain, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T2534" label="el ghayoury abdelkrim, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T3363" label="ait el mekki touria, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T8039" label="gautier christelle, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T9544" label="bardaine christine, UFR SCIENCES, Secrétariat Département et labo chimie - SCIENCES"/>
+<teacher id="T10272" label="monnereau leo, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T12483" label="nardelli maria pia, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T14074" label="sannier melanie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T14775" label="mallegol patricia, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T16372" label="landes claudine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T17303" label="harmange clement, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T19141" label="dutertre nicolas, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T21594" label="bonnet manon, UFR SCIENCES, Aide à l'Enseignement Dép Biologie - SCIENCES"/>
+<teacher id="T19888" label="chevalier wilfried, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T20827" label="ag aboubacrine assadeck mohamed alfaki, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T22021" label="lalande julie, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T34075" label="guilhermic corentin, UFR SCIENCES, Recherche Dép Géologie - SCIENCES"/>
+<teacher id="T34339" label="bruneau maxime, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T34020" label="fahs rayan, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T34216" label="pawula clovis, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T35811" label="billiaux chloe, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35893" label="cordier chiara, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35686" label="boitrel aurore, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35685" label="chouteau thomas, UFR SCIENCES, Recherche Dép Math - SCIENCES"/>
+<teacher id="T35126" label="bakki aicha, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T35756" label="gihaut christopher, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T35773" label="youssef khaled, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36912" label="goncharova iryna, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T38343" label="mbokou foukmeniok serge, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36469" label="david arthur, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T1123" label="ocafrain maitena, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T897" label="leriche philippe, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T18" label="relandeau helene, UFR SCIENCES, Communication SCIENCES"/>
+<teacher id="T6360" label="devred caroline, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T6368" label="dubuc benedicte, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T652" label="darniere jack-luck, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T704" label="frere pierre, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T606" label="plard catherine, UFR SCIENCES, Secrétariat de Direction SCIENCES"/>
+<teacher id="T561" label="ledoux brigitte, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T21" label="assi daniel, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T75" label="coqueret olivier, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T886" label="le paven marie-christine, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T3080" label="demotes-mainard sabine, UFR SCIENCES, UFR SCIENCES"/>
+<teacher id="T2904" label="avarvari narcis, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T3286" label="lemaire christophe, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T1810" label="levillain eric, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T31" label="garcia laurent, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T3148" label="mortreau eric, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T3153" label="joire bernard, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T1288" label="redois fabrice, UFR SCIENCES, DEP ENS SCIENCES Géologie"/>
+<teacher id="T1665" label="maugenest-cuvier sebastien, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8038" label="le petitcorps alexandra, UFR SCIENCES, Secrétariat Département et Labo Mathématiques - SCIENCES"/>
+<teacher id="T10199" label="mattei cesar, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T8911" label="renaud pierre-cyril, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T10203" label="legoupy-gohier stephanie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T14012" label="dul marie-claire, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T15179" label="barbot noemie, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T36848" label="bonafos mathias, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T16969" label="laudier romain, UFR SCIENCES, DEP ENS SCIENCES Disc. Trans."/>
+<teacher id="T16597" label="courtial julia, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T36811" label="lu hoang chinh, UFR SCIENCES, DEP ENS SCIENCES Mathématiques"/>
+<teacher id="T19417" label="rouquier philippe, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T19139" label="zigon nicolas, UFR SCIENCES, DEP ENS SCIENCES Chimie"/>
+<teacher id="T20603" label="blain emmanuelle, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T20840" label="lerenard thomas, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T19601" label="bantz alexandre, UFR SCIENCES, DEP ENS SCIENCES Biologie"/>
+<teacher id="T21864" label="aligon sophie, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T22526" label="brosset charlotte, UFR SCIENCES, Relations Extérieures SCIENCES"/>
+<teacher id="T22530" label="poutier nathalie, UFR SCIENCES, Départements d'Enseignement SCIENCES"/>
+<teacher id="T34158" label="ligonniere sebastien, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T36218" label="gapin adele, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T35589" label="brouard anne, UFR SCIENCES, Pôle Licence SCIENCES"/>
+<teacher id="T35698" label="guillot stephane, UFR SCIENCES, Service Logistique Maintenance SCIENCES"/>
+<teacher id="T36988" label="nini brahim, UFR SCIENCES, DEP ENS SCIENCES INFORMATIQUE"/>
+<teacher id="T36622" label="lopes da silva moreira jose, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+<teacher id="T37598" label="bernardino jerome, UFR SCIENCES, Recherche Dép Biologie - SCIENCES"/>
+<teacher id="T37509" label="ougrige oumaima, UFR SCIENCES, Recherche Dép Physique - SCIENCES"/>
+<teacher id="T37524" label="abdo jihad, UFR SCIENCES, Recherche Dép Chimie - SCIENCES"/>
+</teachers>
+<courses>
+<course id="TCP1401" label="Vie de l'entreprise 1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TCP1401-CM" nrSessions="7" label="Vie de l'entreprise 1, CM">
+<classes maxHeadCount="200">
+<class id="TCP1401-CM-1" label="Vie de l'entreprise 1, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TCP1401-TD" nrSessions="4" label="Vie de l'entreprise 1, TD">
+<classes maxHeadCount="40">
+<class id="TCP1401-TD-1" parent="TCP1401-CM-1" label="Vie de l'entreprise 1, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TCP1501" label="Vie de l'entreprise 2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TCP1501-CM" nrSessions="7" label="Vie de l'entreprise 2, CM">
+<classes maxHeadCount="200">
+<class id="TCP1501-CM-1" label="Vie de l'entreprise 2, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TCP1501-TD" nrSessions="4" label="Vie de l'entreprise 2, TD">
+<classes maxHeadCount="40">
+<class id="TCP1501-TD-1" parent="TCP1501-CM-1" label="Vie de l'entreprise 2, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1310" label="Equilibres acido-basiques - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1310-CMTD" nrSessions="15" label="Equilibres acido-basiques - P3, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1310-CMTD-1" label="Equilibres acido-basiques - P3, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1351" label="Anglais - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1351-TP" nrSessions="6" label="Anglais - P3, TP">
+<classes maxHeadCount="20">
+<class id="TMX1351-TP-1" label="Anglais - P3, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1451" label="Anglais - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1451-TP" nrSessions="6" label="Anglais - P4, TP">
+<classes maxHeadCount="20">
+<class id="TMX1451-TP-1" label="Anglais - P4, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1101" label="Analyse élémentaire* 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1101-CMTD" nrSessions="15" label="Analyse élémentaire* 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1101-CMTD-1" label="Analyse élémentaire* 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1208" label="Electrocinétique 1 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1208-CMTD" nrSessions="6" label="Electrocinétique 1 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1208-CMTD-1" label="Electrocinétique 1 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1210" label="Introduction à la chimie 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1210-TP" nrSessions="3" label="Introduction à la chimie 2 - P2, TP">
+<classes maxHeadCount="20">
+<class id="TMX1210-TP-1" label="Introduction à la chimie 2 - P2, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1210-CMTD" nrSessions="3" label="Introduction à la chimie 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1210-CMTD-1" label="Introduction à la chimie 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1401" label="Fondements d'analyse 2 - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1401-CMTD" nrSessions="22" label="Fondements d'analyse 2 - P4, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1401-CMTD-1" label="Fondements d'analyse 2 - P4, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1503" label="Electrostatique 2 - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1503-TD" nrSessions="6" label="Electrostatique 2 - P5, TD">
+<classes maxHeadCount="40">
+<class id="TMX1503-TD-1" label="Electrostatique 2 - P5, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1554" label="Culture numérique (PIX) - P5 - pour MPC, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1554-TP" nrSessions="6" label="Culture numérique (PIX) - P5 - pour MPC, TP">
+<classes maxHeadCount="20">
+<class id="TMX1554-TP-1" label="Culture numérique (PIX) - P5 - pour MPC, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1211" label="Cinétique - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1211-TP" nrSessions="10" label="Cinétique - P2, TP">
+<classes maxHeadCount="20">
+<class id="TMX1211-TP-1" label="Cinétique - P2, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1301" label="Fondements d'analyse 1 - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1301-CMTD" nrSessions="21" label="Fondements d'analyse 1 - P3, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1301-CMTD-1" label="Fondements d'analyse 1 - P3, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1302" label="Géométrie du plan - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1302-CM" nrSessions="6" label="Géométrie du plan - P3, CM">
+<classes maxHeadCount="200">
+<class id="TMX1302-CM-1" label="Géométrie du plan - P3, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1302-TD" nrSessions="15" label="Géométrie du plan - P3, TD">
+<classes maxHeadCount="40">
+<class id="TMX1302-TD-1" parent="TMX1302-CM-1" label="Géométrie du plan - P3, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1409" label="Instruments d'optique - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1409-CM" nrSessions="6" label="Instruments d'optique - P4, CM">
+<classes maxHeadCount="200">
+<class id="TMX1409-CM-1" label="Instruments d'optique - P4, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1409-TD" nrSessions="10" label="Instruments d'optique - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1409-TD-1" parent="TMX1409-CM-1" label="Instruments d'optique - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1304" label="Fondements d'analyse 1 pour PC - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1304-CMTD" nrSessions="12" label="Fondements d'analyse 1 pour PC - P3, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1304-CMTD-1" label="Fondements d'analyse 1 pour PC - P3, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1507" label="Chimie organique 3 - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1507-CM" nrSessions="4" label="Chimie organique 3 - P5, CM">
+<classes maxHeadCount="200">
+<class id="TMX1507-CM-1" label="Chimie organique 3 - P5, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1507-TD" nrSessions="6" label="Chimie organique 3 - P5, TD">
+<classes maxHeadCount="40">
+<class id="TMX1507-TD-1" parent="TMX1507-CM-1" label="Chimie organique 3 - P5, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1108" label="Mécanique 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1108-CMTD" nrSessions="15" label="Mécanique 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1108-CMTD-1" label="Mécanique 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1403" label="Arithmétique des polynômes - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1403-CM" nrSessions="6" label="Arithmétique des polynômes - P4, CM">
+<classes maxHeadCount="200">
+<class id="TMX1403-CM-1" label="Arithmétique des polynômes - P4, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1403-TD" nrSessions="16" label="Arithmétique des polynômes - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1403-TD-1" parent="TMX1403-CM-1" label="Arithmétique des polynômes - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1201" label="Analyse élémentaire* 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1201-CMTD" nrSessions="15" label="Analyse élémentaire* 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1201-CMTD-1" label="Analyse élémentaire* 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1251" label="Anglais - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1251-TD" nrSessions="3" label="Anglais - P2, TD">
+<classes maxHeadCount="40">
+<class id="TMX1251-TD-1" label="Anglais - P2, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1251-TP" nrSessions="3" label="Anglais - P2, TP">
+<classes maxHeadCount="20">
+<class id="TMX1251-TP-1" parent="TMX1251-TD-1" label="Anglais - P2, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1400" label="Oraux de mathématiques - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1400-TD" nrSessions="1" label="Oraux de mathématiques - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1400-TD-1" label="Oraux de mathématiques - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1506" label="Analyse et dosages - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1506-CM" nrSessions="3" label="Analyse et dosages - P5, CM">
+<classes maxHeadCount="200">
+<class id="TMX1506-CM-1" label="Analyse et dosages - P5, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1506-TD" nrSessions="6" label="Analyse et dosages - P5, TD">
+<classes maxHeadCount="40">
+<class id="TMX1506-TD-1" parent="TMX1506-CM-1" label="Analyse et dosages - P5, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1506-TP" nrSessions="9" label="Analyse et dosages - P5, TP">
+<classes maxHeadCount="20">
+<class id="TMX1506-TP-1" parent="TMX1506-TD-1" label="Analyse et dosages - P5, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1109" label="Atomistique 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1109-CMTD" nrSessions="10" label="Atomistique 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1109-CMTD-1" label="Atomistique 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1308" label="Electrostatique 1 - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1308-CMTD" nrSessions="15" label="Electrostatique 1 - P3, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1308-CMTD-1" label="Electrostatique 1 - P3, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1502" label="Algorithmique Python + Projet pour PC - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1502-CM" nrSessions="6" label="Algorithmique Python + Projet pour PC - P5, CM">
+<classes maxHeadCount="200">
+<class id="TMX1502-CM-1" label="Algorithmique Python + Projet pour PC - P5, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1502-TP" nrSessions="8" label="Algorithmique Python + Projet pour PC - P5, TP">
+<classes maxHeadCount="20">
+<class id="TMX1502-TP-1" label="Algorithmique Python + Projet pour PC - P5, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1107" label="Physique des ondes - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1107-CMTD" nrSessions="10" label="Physique des ondes - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1107-CMTD-1" label="Physique des ondes - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1411" label="Equilibres précipitation-complexation - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1411-CM" nrSessions="4" label="Equilibres précipitation-complexation - P4, CM">
+<classes maxHeadCount="200">
+<class id="TMX1411-CM-1" label="Equilibres précipitation-complexation - P4, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1411-TD" nrSessions="6" label="Equilibres précipitation-complexation - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1411-TD-1" parent="TMX1411-CM-1" label="Equilibres précipitation-complexation - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1253" label="EEO - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1253-TP" nrSessions="3" label="EEO - P2, TP">
+<classes maxHeadCount="20">
+<class id="TMX1253-TP-1" label="EEO - P2, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1253-CMTD" nrSessions="3" label="EEO - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1253-CMTD-1" label="EEO - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1309" label="Fondements de l'optique - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1309-CMTD" nrSessions="10" label="Fondements de l'optique - P3, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1309-CMTD-1" label="Fondements de l'optique - P3, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1352" label="3PE - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1352-TD" nrSessions="3" label="3PE - P3, TD">
+<classes maxHeadCount="40">
+<class id="TMX1352-TD-1" label="3PE - P3, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1404" label="Fondements d'analyse 2 pour PC - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1404-CMTD" nrSessions="12" label="Fondements d'analyse 2 pour PC - P4, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1404-CMTD-1" label="Fondements d'analyse 2 pour PC - P4, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1103" label="Analyse élémentaire 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1103-CMTD" nrSessions="15" label="Analyse élémentaire 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1103-CMTD-1" label="Analyse élémentaire 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1104" label="Algèbre élémentaire 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1104-CMTD" nrSessions="15" label="Algèbre élémentaire 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1104-CMTD-1" label="Algèbre élémentaire 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1207" label="Mécanique 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1207-CMTD" nrSessions="21" label="Mécanique 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1207-CMTD-1" label="Mécanique 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1412" label="Chimie organique 2 - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1412-CM" nrSessions="5" label="Chimie organique 2 - P4, CM">
+<classes maxHeadCount="200">
+<class id="TMX1412-CM-1" label="Chimie organique 2 - P4, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1412-TD" nrSessions="6" label="Chimie organique 2 - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1412-TD-1" parent="TMX1412-CM-1" label="Chimie organique 2 - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1412-TP" nrSessions="7" label="Chimie organique 2 - P4, TP">
+<classes maxHeadCount="20">
+<class id="TMX1412-TP-1" parent="TMX1412-TD-1" label="Chimie organique 2 - P4, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1505" label="Découverte expérimentale de la physique - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1505-TP" nrSessions="12" label="Découverte expérimentale de la physique - P5, TP">
+<classes maxHeadCount="20">
+<class id="TMX1505-TP-1" label="Découverte expérimentale de la physique - P5, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1203" label="Analyse élémentaire 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1203-CMTD" nrSessions="15" label="Analyse élémentaire 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1203-CMTD-1" label="Analyse élémentaire 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1204" label="Algèbre élémentaire 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1204-CMTD" nrSessions="15" label="Algèbre élémentaire 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1204-CMTD-1" label="Algèbre élémentaire 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1300" label="Oraux de mathématiques - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1300-TD" nrSessions="1" label="Oraux de mathématiques - P3, TD">
+<classes maxHeadCount="40">
+<class id="TMX1300-TD-1" label="Oraux de mathématiques - P3, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1402" label="Géométrie de l'espace - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1402-CM" nrSessions="6" label="Géométrie de l'espace - P4, CM">
+<classes maxHeadCount="200">
+<class id="TMX1402-CM-1" label="Géométrie de l'espace - P4, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1402-TD" nrSessions="16" label="Géométrie de l'espace - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1402-TD-1" parent="TMX1402-CM-1" label="Géométrie de l'espace - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1151" label="Anglais - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1151-TD" nrSessions="3" label="Anglais - P1, TD">
+<classes maxHeadCount="40">
+<class id="TMX1151-TD-1" label="Anglais - P1, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1151-TP" nrSessions="3" label="Anglais - P1, TP">
+<classes maxHeadCount="20">
+<class id="TMX1151-TP-1" parent="TMX1151-TD-1" label="Anglais - P1, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1552" label="3PE Enseignant référent - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1552-TP" nrSessions="5" label="3PE Enseignant référent - P5, TP">
+<classes maxHeadCount="20">
+<class id="TMX1552-TP-1" label="3PE Enseignant référent - P5, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1202" label="Algèbre élémentaire* 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1202-CMTD" nrSessions="15" label="Algèbre élémentaire* 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1202-CMTD-1" label="Algèbre élémentaire* 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1153" label="EEO - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1153-CMTD" nrSessions="6" label="EEO - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1153-CMTD-1" label="EEO - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1209" label="Atomistique 2 - P2, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 2">
+<part id="TMX1209-CMTD" nrSessions="10" label="Atomistique 2 - P2, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1209-CMTD-1" label="Atomistique 2 - P2, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1410" label="Electrocinétique 2 - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1410-CM" nrSessions="3" label="Electrocinétique 2 - P4, CM">
+<classes maxHeadCount="200">
+<class id="TMX1410-CM-1" label="Electrocinétique 2 - P4, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1410-TD" nrSessions="7" label="Electrocinétique 2 - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1410-TD-1" parent="TMX1410-CM-1" label="Electrocinétique 2 - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1452" label="3PE - P4, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 4">
+<part id="TMX1452-TD" nrSessions="3" label="3PE - P4, TD">
+<classes maxHeadCount="40">
+<class id="TMX1452-TD-1" label="3PE - P4, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1452-TP" nrSessions="1" label="3PE - P4, TP">
+<classes maxHeadCount="20">
+<class id="TMX1452-TP-1" parent="TMX1452-TD-1" label="3PE - P4, TP-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1504" label="Mécanique 3 - P5, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 5">
+<part id="TMX1504-TD" nrSessions="6" label="Mécanique 3 - P5, TD">
+<classes maxHeadCount="40">
+<class id="TMX1504-TD-1" label="Mécanique 3 - P5, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1110" label="Introduction à la chimie 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1110-CMTD" nrSessions="10" label="Introduction à la chimie 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1110-CMTD-1" label="Introduction à la chimie 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1311" label="Chimie organique 1 - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1311-CMTD" nrSessions="9" label="Chimie organique 1 - P3, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1311-CMTD-1" label="Chimie organique 1 - P3, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1303" label="Arithmétique dans Z - P3, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 3">
+<part id="TMX1303-CM" nrSessions="6" label="Arithmétique dans Z - P3, CM">
+<classes maxHeadCount="200">
+<class id="TMX1303-CM-1" label="Arithmétique dans Z - P3, CM-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+<part id="TMX1303-TD" nrSessions="15" label="Arithmétique dans Z - P3, TD">
+<classes maxHeadCount="40">
+<class id="TMX1303-TD-1" parent="TMX1303-CM-1" label="Arithmétique dans Z - P3, TD-1" />
+</classes>
+<allowedSlots sessionLength="60">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+<course id="TMX1102" label="Algèbre élémentaire* 1 - P1, Licence 1 Sciences; technologies; santé / Portail MPC, Faculté des Sciences, Période 1">
+<part id="TMX1102-CMTD" nrSessions="15" label="Algèbre élémentaire* 1 - P1, CMTD">
+<classes maxHeadCount="40">
+<class id="TMX1102-CMTD-1" label="Algèbre élémentaire* 1 - P1, CMTD-1" />
+</classes>
+<allowedSlots sessionLength="80">
+  <dailySlots>480,570,660,750,840,930,1020,1110</dailySlots>
+  <days>1-5</days>
+  <weeks>1-0</weeks>
+</allowedSlots>
+<allowedRooms sessionRooms="1-">
+</allowedRooms>
+<allowedTeachers sessionTeachers="1">
+</allowedTeachers>
+    </part>
+</course>
+</courses>
+<students>
+<student id="S1" label="Student2">
+</student>
+<student id="S2" label="Student3">
+</student>
+<student id="S3" label="Student4">
+<courses>
+<course refId="TCP1401" />
+<course refId="TCP1501" />
+</courses>
+</student>
+<student id="S4" label="Student5">
+<courses>
+<course refId="TMX1310" />
+<course refId="TMX1351" />
+<course refId="TMX1451" />
+<course refId="TMX1101" />
+<course refId="TMX1208" />
+<course refId="TMX1210" />
+<course refId="TMX1401" />
+<course refId="TMX1503" />
+<course refId="TMX1554" />
+<course refId="TMX1211" />
+<course refId="TMX1301" />
+<course refId="TMX1302" />
+<course refId="TMX1409" />
+<course refId="TMX1304" />
+<course refId="TMX1507" />
+<course refId="TMX1108" />
+<course refId="TMX1403" />
+<course refId="TMX1201" />
+<course refId="TMX1251" />
+<course refId="TMX1400" />
+<course refId="TMX1506" />
+<course refId="TMX1109" />
+<course refId="TMX1308" />
+<course refId="TMX1502" />
+<course refId="TMX1107" />
+<course refId="TMX1411" />
+<course refId="TMX1253" />
+<course refId="TMX1309" />
+<course refId="TMX1352" />
+<course refId="TMX1404" />
+<course refId="TMX1103" />
+<course refId="TMX1104" />
+<course refId="TMX1207" />
+<course refId="TMX1412" />
+<course refId="TMX1505" />
+<course refId="TMX1203" />
+<course refId="TMX1204" />
+<course refId="TMX1300" />
+<course refId="TMX1402" />
+<course refId="TMX1151" />
+<course refId="TMX1552" />
+<course refId="TMX1202" />
+<course refId="TMX1153" />
+<course refId="TMX1209" />
+<course refId="TMX1410" />
+<course refId="TMX1452" />
+<course refId="TMX1504" />
+<course refId="TMX1110" />
+<course refId="TMX1311" />
+<course refId="TMX1303" />
+<course refId="TMX1102" />
+</courses>
+</student>
+<student id="S5" label="Student6">
+</student>
+<student id="S6" label="Student7">
+</student>
+<student id="S7" label="Student8">
+</student>
+</students>
+<solution>
+<groups>
+<group id="TL1MP13-G1">
+<students>
+<student refId="S2"/>
+</students>
+</group>
+<group id="TL1MP12-G1">
+<students>
+<student refId="S3"/>
+</students>
+<classes>
+<class refId="TCP1401-CM-1"/>
+<class refId="TCP1401-TD-1"/>
+<class refId="TCP1501-CM-1"/>
+<class refId="TCP1501-TD-1"/>
+</classes>
+</group>
+<group id="TL1MP12-G2">
+<classes>
+<class refId="TCP1401-CM-1"/>
+<class refId="TCP1401-TD-1"/>
+<class refId="TCP1501-CM-1"/>
+<class refId="TCP1501-TD-1"/>
+</classes>
+</group>
+<group id="TL1MP11-G1">
+<students>
+<student refId="S4"/>
+</students>
+<classes>
+<class refId="TMX1310-CMTD-1"/>
+<class refId="TMX1351-TP-1"/>
+<class refId="TMX1451-TP-1"/>
+<class refId="TMX1101-CMTD-1"/>
+<class refId="TMX1208-CMTD-1"/>
+<class refId="TMX1210-TP-1"/>
+<class refId="TMX1210-CMTD-1"/>
+<class refId="TMX1401-CMTD-1"/>
+<class refId="TMX1503-TD-1"/>
+<class refId="TMX1554-TP-1"/>
+<class refId="TMX1211-TP-1"/>
+<class refId="TMX1301-CMTD-1"/>
+<class refId="TMX1302-CM-1"/>
+<class refId="TMX1302-TD-1"/>
+<class refId="TMX1409-CM-1"/>
+<class refId="TMX1409-TD-1"/>
+<class refId="TMX1304-CMTD-1"/>
+<class refId="TMX1507-CM-1"/>
+<class refId="TMX1507-TD-1"/>
+<class refId="TMX1108-CMTD-1"/>
+<class refId="TMX1403-CM-1"/>
+<class refId="TMX1403-TD-1"/>
+<class refId="TMX1201-CMTD-1"/>
+<class refId="TMX1251-TD-1"/>
+<class refId="TMX1251-TP-1"/>
+<class refId="TMX1400-TD-1"/>
+<class refId="TMX1506-CM-1"/>
+<class refId="TMX1506-TD-1"/>
+<class refId="TMX1506-TP-1"/>
+<class refId="TMX1109-CMTD-1"/>
+<class refId="TMX1308-CMTD-1"/>
+<class refId="TMX1502-CM-1"/>
+<class refId="TMX1502-TP-1"/>
+<class refId="TMX1107-CMTD-1"/>
+<class refId="TMX1411-CM-1"/>
+<class refId="TMX1411-TD-1"/>
+<class refId="TMX1253-TP-1"/>
+<class refId="TMX1253-CMTD-1"/>
+<class refId="TMX1309-CMTD-1"/>
+<class refId="TMX1352-TD-1"/>
+<class refId="TMX1404-CMTD-1"/>
+<class refId="TMX1103-CMTD-1"/>
+<class refId="TMX1104-CMTD-1"/>
+<class refId="TMX1207-CMTD-1"/>
+<class refId="TMX1412-CM-1"/>
+<class refId="TMX1412-TD-1"/>
+<class refId="TMX1412-TP-1"/>
+<class refId="TMX1505-TP-1"/>
+<class refId="TMX1203-CMTD-1"/>
+<class refId="TMX1204-CMTD-1"/>
+<class refId="TMX1300-TD-1"/>
+<class refId="TMX1402-CM-1"/>
+<class refId="TMX1402-TD-1"/>
+<class refId="TMX1151-TD-1"/>
+<class refId="TMX1151-TP-1"/>
+<class refId="TMX1552-TP-1"/>
+<class refId="TMX1202-CMTD-1"/>
+<class refId="TMX1153-CMTD-1"/>
+<class refId="TMX1209-CMTD-1"/>
+<class refId="TMX1410-CM-1"/>
+<class refId="TMX1410-TD-1"/>
+<class refId="TMX1452-TD-1"/>
+<class refId="TMX1452-TP-1"/>
+<class refId="TMX1504-TD-1"/>
+<class refId="TMX1110-CMTD-1"/>
+<class refId="TMX1311-CMTD-1"/>
+<class refId="TMX1303-CM-1"/>
+<class refId="TMX1303-TD-1"/>
+<class refId="TMX1102-CMTD-1"/>
+</classes>
+</group>
+<group id="TL1MP11-G2">
+<classes>
+<class refId="TMX1310-CMTD-1"/>
+<class refId="TMX1101-CMTD-1"/>
+<class refId="TMX1208-CMTD-1"/>
+<class refId="TMX1210-CMTD-1"/>
+<class refId="TMX1401-CMTD-1"/>
+<class refId="TMX1503-TD-1"/>
+<class refId="TMX1301-CMTD-1"/>
+<class refId="TMX1302-CM-1"/>
+<class refId="TMX1302-TD-1"/>
+<class refId="TMX1409-CM-1"/>
+<class refId="TMX1409-TD-1"/>
+<class refId="TMX1304-CMTD-1"/>
+<class refId="TMX1507-CM-1"/>
+<class refId="TMX1507-TD-1"/>
+<class refId="TMX1108-CMTD-1"/>
+<class refId="TMX1403-CM-1"/>
+<class refId="TMX1403-TD-1"/>
+<class refId="TMX1201-CMTD-1"/>
+<class refId="TMX1251-TD-1"/>
+<class refId="TMX1400-TD-1"/>
+<class refId="TMX1506-CM-1"/>
+<class refId="TMX1506-TD-1"/>
+<class refId="TMX1109-CMTD-1"/>
+<class refId="TMX1308-CMTD-1"/>
+<class refId="TMX1502-CM-1"/>
+<class refId="TMX1107-CMTD-1"/>
+<class refId="TMX1411-CM-1"/>
+<class refId="TMX1411-TD-1"/>
+<class refId="TMX1253-CMTD-1"/>
+<class refId="TMX1309-CMTD-1"/>
+<class refId="TMX1352-TD-1"/>
+<class refId="TMX1404-CMTD-1"/>
+<class refId="TMX1103-CMTD-1"/>
+<class refId="TMX1104-CMTD-1"/>
+<class refId="TMX1207-CMTD-1"/>
+<class refId="TMX1412-CM-1"/>
+<class refId="TMX1412-TD-1"/>
+<class refId="TMX1203-CMTD-1"/>
+<class refId="TMX1204-CMTD-1"/>
+<class refId="TMX1300-TD-1"/>
+<class refId="TMX1402-CM-1"/>
+<class refId="TMX1402-TD-1"/>
+<class refId="TMX1151-TD-1"/>
+<class refId="TMX1202-CMTD-1"/>
+<class refId="TMX1153-CMTD-1"/>
+<class refId="TMX1209-CMTD-1"/>
+<class refId="TMX1410-CM-1"/>
+<class refId="TMX1410-TD-1"/>
+<class refId="TMX1452-TD-1"/>
+<class refId="TMX1504-TD-1"/>
+<class refId="TMX1110-CMTD-1"/>
+<class refId="TMX1311-CMTD-1"/>
+<class refId="TMX1303-CM-1"/>
+<class refId="TMX1303-TD-1"/>
+<class refId="TMX1102-CMTD-1"/>
+</classes>
+</group>
+<group id="TL2IN11-G1">
+<students>
+<student refId="S5"/>
+</students>
+</group>
+<group id="TL3MAT11-G1">
+<students>
+<student refId="S6"/>
+</students>
+</group>
+<group id="TL3MAT13-G1">
+<students>
+<student refId="S7"/>
+</students>
+</group>
+<group id="TL1MP14-G1">
+<students>
+<student refId="S8"/>
+</students>
+</group>
+</groups>
+</solution>
+</timetabling>

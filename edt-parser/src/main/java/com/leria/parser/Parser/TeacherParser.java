@@ -3,6 +3,7 @@ package com.leria.parser.Parser;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import com.google.gson.Gson;
 import com.leria.parser.Api.API;
@@ -31,7 +32,8 @@ public class TeacherParser {
         }
       }
       System.out.println("Parsed " + teachers.size() + " teachers");
-      return teachers;
+      //Filter for non affected people
+      return teachers.stream().filter(t->!Pattern.matches(".*Personnel non affecté.*",t.getLabel().getValue())).toList();
     } catch (NullPointerException e) {
       throw new Exception("The Teacher API returned a null response, check that the server is up and running");
     }

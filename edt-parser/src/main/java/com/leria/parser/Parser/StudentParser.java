@@ -11,11 +11,12 @@ import com.leria.parser.Models.Leria.types.UniqueId;
 public class StudentParser {
   private StudentParser() {
   }
-
+  
   // Use classes id from the groups to find the courses the student has to take
   // (could create issues if the id changed)
   public static List<Student> parseStudent(ResultCourseParser result) {
-    for (Student student : result.getStudents()) {
+
+	 for (Student student : result.getStudents()) {
       for (Group group : result.getSolution().getGroups()) {
         if (group.getStudents().contains(student.getId().getId())) {
           for (String c : group.getClasses()) {
@@ -23,7 +24,10 @@ public class StudentParser {
           }
         }
       }
+      System.out.println(student.getId().getId());
+      student.getCoursesRefIds().stream().forEach(System.out::println);
     }
+    
     return result.getStudents();
   }
 

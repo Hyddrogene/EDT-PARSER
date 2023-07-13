@@ -1,0 +1,52 @@
+<etape id="TL1SV12" label="Licence 1 Sciences de la Vie et de la Terre Chimie" periodes="" effectif="1" />
+<etape id="TL1SV13" label="Licence 1 Sciences de la Vie et de la Terre Chimie" periodes="" effectif="1" />
+<etape id="TL1PP11" label="Licence 1 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="1" />
+<etape id="TTLM1" label="THELEME SCIENCES" periodes="" effectif="1" />
+<etape id="ECSMBS1" label="M2 mention Biologie santé (ecandidat)" periodes="" effectif="1" />
+<etape id="ECSMBV1" label="M2 Bio végétale ecandidat" periodes="" effectif="1" />
+<etape id="TL1SV11" label="Licence 1 Sciences de la Vie et de la Terre Chimie" periodes="" effectif="1" />
+<etape id="TL3DCS1" label="L3 SVT-Math / Diffusion savoir et culture scientifique santé" periodes="" effectif="1" />
+<etape id="TL1ME11" label="Licence 1 Double Licence Mathématiques / Math-Économie" periodes="" effectif="1" />
+<etape id="TLPPLC1" label="LP Produits Locaux et Circuits Courts" periodes="" effectif="1" />
+<etape id="TL2SV12" label="Licence 2 Sciences de la vie et de la terre" periodes="" effectif="1" />
+<etape id="TL2PC11" label="Licence 2 Physique-Chimie" periodes="" effectif="1" />
+<etape id="TL2IN11" label="Licence 2 Informatique" periodes="" effectif="1" />
+<etape id="TL2BI11" label="Licence 2 Biologies et Chimie" periodes="" effectif="1" />
+<etape id="TL2ME11" label="Licence 2 Double Licence Mathématiques / Math-Économie" periodes="" effectif="1" />
+<etape id="TL2MA13" label="Licence 2 Mathématiques" periodes="" effectif="1" />
+<etape id="TL2SV13" label="Licence 2 Sciences de la vie et de la terre" periodes="" effectif="1" />
+<etape id="TL2PP11" label="Licence 2 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="1" />
+<etape id="TL2GE11" label="Licence 2 Géosciences" periodes="" effectif="1" />
+<etape id="TL3IN11" label="Licence 3 Informatique" periodes="" effectif="1" />
+<etape id="TL3ME11" label="Licence 3 Double Licence Mathématiques / Math-Économie" periodes="" effectif="1" />
+<etape id="TL3PP11" label="Licence 3 Mathématiques - Parc. Prép. Professorat des Ecoles" periodes="" effectif="1" />
+<etape id="TL3CE11" label="Licence 3 Physique Chimie / Chimie - environnement" periodes="" effectif="1" />
+<etape id="TL3PA11" label="Licence 3 Physique Chimie / Physique applications" periodes="" effectif="1" />
+<etape id="TL2IMA11" label="Licence 2 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL3MAT11" label="Licence 3 Mathématiques" periodes="" effectif="1" />
+<etape id="TL3MAT13" label="Licence 3 Mathématiques" periodes="" effectif="1" />
+<etape id="TL3PA12" label="Licence 3 Physique Chimie / Physique applications" periodes="" effectif="1" />
+<etape id="TL3CM11" label="Licence 3 Physique Chimie / Chimie - médicaments" periodes="" effectif="1" />
+<etape id="TL1MAI11" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL3MF11" label="Licence 3 Spé. aux métiers de l'éd., de l'ens. et de la for." periodes="" effectif="1" />
+<etape id="TL3MAI11" label="Licence 3 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL3CE12" label="Licence 3 Physique Chimie / Chimie - environnement" periodes="" effectif="1" />
+<etape id="TL3IMA11" label="Licence 3 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL2PC14" label="Licence 2 Physique-Chimie" periodes="" effectif="1" />
+<etape id="TL1IMA11" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL3MAA11" label="Licence 3 Mathématiques / Mathématiques appliquées" periodes="" effectif="1" />
+<etape id="TL3LM11" label="Licence 3 Physique Chimie / Lumière, molécules et phy.-chim." periodes="" effectif="1" />
+<etape id="TL2MAI11" label="Licence 2 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL3MFS11" label="L3 Spé. aux métiers de l'édu., de l'ens. et de la for. santé" periodes="" effectif="1" />
+<etape id="TL3BC11" label="Licence 3 SVT / Biologie cellulaire moléculaire et physiolo." periodes="" effectif="1" />
+<etape id="TL3BO11" label="Licence 3 SVT / Biologie des organismes et des populations" periodes="" effectif="1" />
+<etape id="TL3GE11" label="Licence 3 SVT / Géosciences et environnement" periodes="" effectif="1" />
+<etape id="TLPERD1" label="LP Expérimentation Recherche et Dévelop., nouvelles techno." periodes="" effectif="1" />
+<etape id="TL3BV12" label="Licence 3 SVT / Biologie végétale" periodes="" effectif="1" />
+<etape id="TL3BV11" label="Licence 3 SVT / Biologie végétale" periodes="" effectif="1" />
+<etape id="TL1MAI1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL1IMA1" label="Licence 1 Double Licence Mathématiques / Informatique" periodes="" effectif="1" />
+<etape id="TL2PC12" label="Licence 2 Physique-Chimie" periodes="" effectif="1" />
+<etape id="TL2PC13" label="Licence 2 Physique-Chimie" periodes="" effectif="1" />
+<etape id="TL2MA11" label="Licence 2 Mathématiques" periodes="" effectif="1" />
+<etape id="TLPMI1" label="LP Métiers de l'informatique : applications web" periodes="" effectif="1" />
