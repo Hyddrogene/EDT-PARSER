@@ -37,6 +37,10 @@ public class Parser {
       timetable.setStudents(StudentParser.parseStudent(resultCourseParser));
       timetable.setSolution(resultCourseParser.getSolution());
 
+      String ruleConfigFile = "/home/etud/stage_2023/edt-parser/edt-parser/configuration_rule.xml";
+      
+      RuleGenerator ruleGenerator = new RuleGenerator(ruleConfigFile);
+      
       return timetable;
     } catch (Exception e) {
       throw new Exception("Error while retrieving data from APIs. \n" + e.getMessage());
