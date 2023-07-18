@@ -40,6 +40,7 @@ public class Parser {
       String ruleConfigFile = "/home/etud/stage_2023/edt-parser/edt-parser/configuration_rule.xml";
       
       RuleGenerator ruleGenerator = new RuleGenerator(ruleConfigFile);
+      ruleGenerator.generate(resultCourseParser.getCourses());
       
       return timetable;
     } catch (Exception e) {

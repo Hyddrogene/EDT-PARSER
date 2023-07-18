@@ -14,6 +14,7 @@ import org.w3c.dom.NodeList;
 
 import com.leria.parser.Config.ConfigurationFile;
 import com.leria.parser.Config.SelectEtape;
+import com.leria.parser.Models.Leria.objects.Course;
 import com.leria.parser.Rule.PredicatUTP;
 import com.leria.parser.Rule.RuleManager;
 import com.leria.parser.Rule.Selector;
@@ -22,14 +23,16 @@ public class RuleGenerator {
 	private String configFile;
 	private File   fileRuleConfig;
 
+	private ArrayList<RuleManager> ruleManagerTab;
+	
 	public RuleGenerator(String configFile) {
 		this.configFile = configFile;
 		fileRuleConfig = new File(this.configFile);
-		readFileConfig(fileRuleConfig);
+		ruleManagerTab = readFileConfig(fileRuleConfig);
 	}//FinMethod
 
 	
-	public static RuleManager readFileConfig(File file) {
+	public static ArrayList<RuleManager> readFileConfig(File file) {
 	    try {
 	      DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 	      DocumentBuilder builder = factory.newDocumentBuilder();
@@ -40,7 +43,8 @@ public class RuleGenerator {
 	      Element root = document.getDocumentElement();
 	      NodeList configurations = root.getElementsByTagName("configuration");
 	      
-	      RuleManager[] ruleManagerTab; 
+	      //RuleManager; 
+	      ArrayList<RuleManager> ruleManagerTab = new ArrayList<RuleManager>();
 	      
 	      for(int i = 0; i < configurations.getLength() ;i++) {
 	    	  NodeList rulemanagers = ((Element)configurations.item(i)).getElementsByTagName("ruleManager");
@@ -74,12 +78,12 @@ public class RuleGenerator {
 	    				  ""
 	    				  );
 	    		  
-	    		  RuleManager ruleManager = new RuleManager();
-	    		  
+	    		  RuleManager ruleManager = new RuleManager(type, filter, effect, value, verification, probability,generatorSelectors,predicat);
+	    		  ruleManagerTab.add(ruleManager);
 	    	  }
 	      }
 	      
-	      return new RuleManager();
+	      return ruleManagerTab;
 	  }
 	  catch (Exception e) {
 		   System.out.println("Error while parsing configuration file");
@@ -87,6 +91,21 @@ public class RuleGenerator {
 	  }
 	  return null;
 	}//FinMethod
+	
+	public boolean checkLabel() {
+		return false;
+	}//FinMethod
+	
+	public void generate(List<Course> courses) {
+		for(Course course:courses) {
+			for(RuleManager rule:this.ruleManagerTab.stream().filter(u->u.getType().equals("course")).toList()) {
+					if(true) {
+						
+					}
+			}
+		}
+	}//FinMethod
+	
 	
 	
 }//FinClass
